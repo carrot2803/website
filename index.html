@@ -5,10 +5,10 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Document</title>
+	<title>GameByte</title>
 	<script src="https://kit.fontawesome.com/1a015cf62c.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
+	<link rel="stylesheet" href="/css/index.css">
+
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 			<div class="nav-right">
 				<button class="upload-btn">Upload</button>
 				<button class="login-btn">Log in</button>
-				<div class="drop-down">
+				<div class="drop-down" class="hidden">
 					<i class="fas fa-ellipsis-v fa-lg"></i>
 					<div class="menu hidden">
 						<ul>
@@ -108,96 +108,39 @@
 			</div>
 		</div>
 
-		<div class="right">
-			<div class="post">
-				<div class="post-info">
-					<div class="user">
-						<img src="assets/pfp1.png" alt="avatar">
-						<div>
-							<h6>Arshad</h6>
-							<p>League of Legends</p>
-						</div>
-					</div>
-					<button>Follow</button>
-				</div>
-				<div class="post-content">
-					<video class="video-style" autoplay muted controls loop disablepictureinpicture
-						controlslist="nodownload noplaybackrate">
-						<source src="assets/video1.mp4" type="video/mp4">
-					</video>
-					<div class="video-icons">
-						<a href="#"><i class="fas fa-heart fa-lg"></i><span>2.6K</span></a>
-						<a href="#"><i class="fas fa-comment-dots fa-lg"></i><span>420</span></a>
-						<a href="#"><i class="fas fa-share fa-lg"></i> <span>420</span></a>
-					</div>
-				</div>
-			</div>
+		<div class="right" id="post-container">
+        </div>
 
-			<div class="post">
-				<div class="post-info">
-					<div class="user">
-						<img src="assets/pfp2.png" alt="avatar">
-						<div>
-							<h6>Brandon</h6>
-							<p>Genshin Impact</p>
-						</div>
-					</div>
-					<button>Follow</button>
-				</div>
-				<div class="post-content">
-					<video class="video-style" autoplay muted controls loop disablepictureinpicture
-						controlslist="nodownload noplaybackrate">
-						<source src="assets/video1.mp4" type="video/mp4">
-					</video>
-					<div class="video-icons">
-						<a href="#"><i class="fas fa-heart fa-lg"></i><span>2.6K</span></a>
-						<a href="#"><i class="fas fa-comment-dots fa-lg"></i><span>420</span></a>
-						<a href="#"><i class="fas fa-share fa-lg"></i> <span>450</span></a>
-					</div>
-				</div>
+		<div class="chat-container hidden">
+			<div class="chat-header">
+				<h3>Chat</h3>
+				<button class="back-button">Back</button>
 			</div>
-
-			<div class="post">
-				<div class="post-info">
-					<div class="user">
-						<img src="assets/pfp3.png" alt="avatar">
-						<div>
-							<h6>Dmitri</h6>
-							<p>CSGO</p>
-						</div>
-					</div>
-					<button>Follow</button>
-				</div>
-				<div class="post-content">
-					<video class="video-style" autoplay muted controls loop disablepictureinpicture
-						controlslist="nodownload noplaybackrate">
-						<source src="assets/video1.mp4" type="video/mp4">
-					</video>
-					<div class="video-icons">
-						<a href="#"><i class="fas fa-heart fa-lg"></i><span>2.6K</span></a>
-						<a href="#"><i class="fas fa-comment-dots fa-lg"></i><span>420</span></a>
-						<a href="#"><i class="fas fa-share fa-lg"></i> <span>420</span></a>
-					</div>
-				</div>
+			<div class="chat-messages"></div>
+			<div class="chat-input">
+				<input type="text" placeholder="Type your message here" />
+				<button>Send</button>
 			</div>
 		</div>
 
 		<div class="contacts-sidebar">
 			<ul>
-				<li><h1>Contacts</h1> </li>
 				<li>
+					<h1>Contacts</h1>
+				</li>
+				<li id="contact1">
 					<a href="#">
 						<img src="assets/pfp1.png" alt="contact1">
 						<span>Contact 1</span>
 					</a>
 				</li>
-				<li>
+				<li id="contact2">
 					<a href="#">
 						<img src="assets/pfp2.png" alt="contact2">
 						<span>Contact 2</span>
 					</a>
 				</li>
-				<li>
+				<li id="contact3">
 					<a href="#">
 						<img src="assets/pfp3.png" alt="contact3">
 						<span>Contact 3</span>
@@ -206,9 +149,10 @@
 				<!-- add more contacts as needed -->
 			</ul>
 		</div>
-
-
 	</main>
+	<script type="text/javascript" src="/js/functions/chat.js"></script>
+	<script type="text/javascript" src="/js/functions/menu.js"></script>
+	<script type="text/javascript" src="/js/functions/users.js"></script>
 </body>
 
 </html>
