@@ -1,0 +1,180 @@
+ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style-type: none;
+	height: 100%;
+}
+
+li {
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	padding-top: 0.5rem;
+	height: 2.5rem;
+	width: 100%;
+}
+
+li:hover {
+	background-color: rgb(245, 245, 245);
+}
+
+li>a {
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 0.9rem;
+	color: #000;
+}
+
+li>a>i {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.hidden {
+	display: none;
+}
+
+main {
+	display: flex;
+	width: 100vw;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(22, 24, 35, 0.06);
+}
+
+.right {
+	flex: 0.65;
+	height: 100vh;
+	overflow-y: scroll;
+}
+
+.post {
+	margin-top: 0.5rem;
+	margin-right: 0rem;
+	margin-bottom: 0rem;
+	padding-bottom: 0;
+	height: 38rem;
+	width: 80%;
+	border-bottom: 0.1px solid rgb(200, 200, 200);
+}
+
+.post-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.post-info>.user:hover {
+	background-color: transparent;
+}
+
+.post-info>.user>img {
+	height: 60px;
+	width: 60px;
+}
+
+.post-info>.user>div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 100%;
+	margin-left: 0.5rem;
+}
+
+.post-info>.user>div>h6 {
+	font-size: 1rem;
+}
+
+.post-info>.user>div>h6:hover {
+	text-decoration: underline;
+}
+
+.post-info>.user>div>p {
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.post-info>button {
+	margin-top: 1rem;
+	background-color: transparent;
+	border: 1px solid rgb(91, 111, 226);
+	color: rgb(44, 10, 156);
+	font-size: 0.9rem;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 5px;
+	height: 1.7rem;
+	width: 5.7rem;
+}
+
+.post-info>button:hover {
+	background-color: rgba(254, 44, 86, 0.05);
+}
+
+.post-content {
+	display: flex;
+	width: 20rem;
+	margin-bottom: 1rem;
+	position: relative;
+}
+
+.post-content>video {
+	/* height: auto; */
+	width: 90%;
+	border-radius: 10px;
+	margin-left: 5rem;
+}
+
+.video-icons {
+	position: absolute;
+	top: 55%;
+	left: 120%;
+}
+
+.video-icons>a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #000;
+	text-decoration: none;
+}
+
+.video-icons>a>i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(245, 245, 245);
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+
+.video-icons>a>i:hover {
+	background-color: rgb(230, 230, 230);
+	overflow: hidden;
+}
+
+.video-icons>a>span {
+	font-size: 0.7rem;
+	color: rgb(80, 80, 80);
+	font-weight: 600;
+	margin-bottom: 0.7rem;
+}
+
+.video-style {
+	width: 90%;
+	max-width: 600px;
+	cursor: pointer;
+	border-radius: 8px;
+	/* set a maximum width for the video */
+	height: calc(18rem * 1.7778);
+	/* calculate the height based on the aspect ratio (9:16) */
+	object-fit: cover;
+	/* use object-fit to fill the container while preserving the aspect ratio */
+}

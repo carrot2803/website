@@ -1,0 +1,83 @@
+video::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display {
+	display: none;
+}
+
+@media (max-width: 1000px) {
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.search-bar {
+		display: none;
+	}
+
+	.menu {
+		z-index: 10;
+	}
+
+	.left {
+		flex: 0.1;
+		border: none;
+		border-right: 1px solid rgb(200, 200, 200);
+	}
+
+	.left:hover {
+		overflow: hidden;
+	}
+
+	.right {
+		flex: 0.9;
+	}
+
+	.btns {
+		margin: 0;
+		align-items: center;
+	}
+
+	.btns>a>span {
+		display: none;
+	}
+
+	.login {
+		display: none;
+	}
+
+	.accounts {
+		margin: 0;
+		border: none;
+		align-items: center;
+	}
+
+	.accounts>p {
+		display: none;
+	}
+
+	.accounts>.user>h6 {
+		display: none;
+	}
+
+	.user {
+		padding-left: 0;
+	}
+
+	.tags {
+		display: none;
+	}
+
+	.links {
+		display: none;
+	}
+
+	.post-content>video {
+		margin-left: 2rem;
+		/* margin-bottom: 0em; */
+	}
+
+	.video-icons {
+		left: 100%;
+	}
+
+}

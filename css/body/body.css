@@ -1,0 +1,11 @@
+@import url('/css/body/header/header.css');
+@import url('/css/body/main/main.css');
+
+body {
+	height: 100vw;
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	background-color: white;
+	overflow: hidden;
+}
