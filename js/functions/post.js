@@ -123,7 +123,7 @@ for (let i = 0; i < 5; i++){
 				}
 
 				window.requestAnimationFrame(checkVideoInView);
-			}
+			}//Jared was here
 		});
 	});
 }
