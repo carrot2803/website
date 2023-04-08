@@ -1,13 +1,17 @@
 const posts = [
 	{
-		userName: "Arshad", game: ["League of Legends"],
+		userName: "Arshad", 
+		game: ["League of Legends"],
 		videoSources: [
-			{ src: "assets/video1.mp4" }
+			{ 
+				index: "1",
+				src: "/assets/video1.mp4" 
+			}
 		],
 		likes: ["2.6K"],
 		comments: ["420"],
 		shares: ["420"],
-		avatar: "assets/pfp1.png"
+		avatar: "https://i.seadn.io/gae/6xxeJMz0SBziNYlf0NnN_59rbuizSfH64lAdW1wKk2lXUcX5ARDLmyj6SNOCr0fxXnT5paImdRaNA8dO3NhyWtpbVd6njMmu_HPa_Q?auto=format&w=1000"
 	},
 	{
 		userName: "Brandon",
@@ -21,7 +25,7 @@ const posts = [
 		likes: ["2.6K"],
 		comments: ["420"],
 		shares: ["450"],
-		avatar: "assets/pfp2.png"
+		avatar: "https://i.seadn.io/gae/50BxNfH-7kDpE010pKSUtOilU3qNoPCdi5NlfoGWeSp-RhZSSO-jtcgah2FJa1r1_RaKmhQa21pcppglkNDmvcESxOOD5hgMjCW_7Q?auto=format&w=1000"
 	},
 	{
 		userName: "Dmitri",
@@ -35,7 +39,7 @@ const posts = [
 		likes: ["2.6K"],
 		comments: ["420"],
 		shares: ["420"],
-		avatar: "assets/pfp3.png"
+		avatar: "https://i.pinimg.com/474x/ec/6c/d0/ec6cd0df4440ed18c727219d98436b61--el-anime-manga-anime.jpg"
 	},
 	{
 		userName: "Jared",
