@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+    ---background: #fff;
+    --title: #444;
+    --input-field: #acacac;
+    --social-icon: #4481eb;
+    --btn: #5995fd;
+    --image-background: linear-gradient(-45deg, var(--social-icon) 0%, #04befe 100%);
+}
