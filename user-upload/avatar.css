@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+}
+
+.main {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.profile-card {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 400px;
+	width: 100%;
+	border-radius: 25px;
+	padding: 30px;
+	border: 1px solid #ffffff40;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.image {
+	position: relative;
+	height: 150px;
+	width: 150px;
+}
+
+.image .profile-pic {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.data {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.data h2 {
+	font-size: 33px;
+	font-weight: 600;
+}
+
+span {
+	font-size: 18px;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.row .info {
+	text-align: center;
+	padding: 0 20px;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.buttons .btn {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 20px;
+	padding: 8px 25px;
+	border-radius: 25px;
+	font-size: 18px;
+	white-space: nowrap;
+	background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+}
+
+.buttons .btn:hover {
+	box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.profile-pic {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#profile-pic {
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.custom-file-upload {
+	display: block;
+	width: 150px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background-color: #007bff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="file"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+
+  
