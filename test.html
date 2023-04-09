@@ -46,25 +46,22 @@
         </nav>
     </header>
 
+    <script src="/user-upload/avatar.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const loginButton = document.querySelector('#login-btn');
             const avatarSelected = localStorage.getItem('avatarSelected');
-
+        
             if (avatarSelected) {
                 // User is logged in and has an avatar
-                const navRight = document.querySelector('.nav-right');
-                const avatarContainer = document.createElement('div');
-                avatarContainer.classList.add('avatar-container');
-
                 const avatarImage = document.querySelector('#avatar-image');
                 avatarImage.classList.remove('hidden');
-                avatarImage.setAttribute('src', avatarSelected);
-
-                // replace the login button with the avatar container
-                navRight.replaceChild(avatarImage, loginButton);
+                avatarImage.setAttribute('src', localStorage.getItem('avatar'));
+                avatarImage.classList.add('avatar-container');
+                loginButton.classList.add('hidden');
             } else {
                 // User is not logged in
+                const loginButton = document.querySelector('#login-btn');
                 const newLoginButton = document.createElement('button');
                 newLoginButton.innerText = 'Log in';
                 newLoginButton.id = 'login-btn';

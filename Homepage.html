@@ -23,7 +23,8 @@
 
 			<div class="nav-right">
 				<button class="upload-btn">Upload</button>
-				<button class="login-btn">Log in</button>
+				<img id="avatar-image" class="hidden">
+				<button id="login-btn">Log in</button>
 				<div class="drop-down" class="hidden">
 					<i class="fas fa-ellipsis-v fa-lg"></i>
 					<div class="menu hidden">
@@ -32,17 +33,16 @@
 								<a href="#"><i class="fas fa-font fa-lg"></i> English</a>
 							</li>
 							<li>
-								<a href="#"><i class="far fa-question-circle fa-lg"></i>
-
-									Feedback and help</a>
+								<a href="#"><i class="far fa-question-circle fa-lg"></i> Feedback and help</a>
 							</li>
 							<li>
-								<a href="#"><i class="far fa-keyboard fa-lg"></i>Keyboard shortcuts</a>
+								<a href="#"><i class="far fa-keyboard fa-lg"></i> Keyboard shortcuts</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
+
 		</nav>
 	</header>
 
@@ -108,7 +108,7 @@
 		</div>
 
 		<div class="right" id="post-container">
-        </div>
+		</div>
 
 		<div class="chat-container hidden">
 			<div class="chat-header">
@@ -152,6 +152,8 @@
 	<script type="text/javascript" src="/js/functions/chat.js"></script>
 	<script type="text/javascript" src="/js/functions/menu.js"></script>
 	<script type="text/javascript" src="/js/functions/post.js"></script>
+	<script src="/user-upload/avatar.js"></script>
+	<script src="/js/functions/userlogin.js"></script>
 </body>
 
 </html>

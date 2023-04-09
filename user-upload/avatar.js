@@ -48,22 +48,27 @@ continueButton.addEventListener("click", function (event) {
 		const canvas = document.createElement('canvas');
 		const ctx = canvas.getContext('2d');
 		const image = new Image();
-
+	  
 		image.onload = function () {
-			canvas.width = image.width;
-			canvas.height = image.height;
-			ctx.drawImage(image, 0, 0);
-
-			const dataURL = canvas.toDataURL('image/png');
-			localStorage.setItem('avatar', dataURL);
-			localStorage.setItem('avatarSelected', 'user');
-
-			console.log("Confirm button clicked!");
-			window.location.href = '/test.html';
+		  canvas.width = image.width;
+		  canvas.height = image.height;
+		  ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+		  ctx.drawImage(image, 0, 0);
+	  
+		  // Append the canvas to the page
+		  document.body.appendChild(canvas);
+	  
+		  const dataURL = canvas.toDataURL('image/png');
+		  localStorage.setItem('avatar', dataURL);
+		  localStorage.setItem('avatarSelected', 'user');
+	  
+		  console.log("Confirm button clicked!");
+		  window.location.href = '/Homepage.html';
 		};
-
+	  
 		image.src = URL.createObjectURL(selectedAvatar);
-	}
+	  }
+	  
 	else {
 		// prompt the user to upload a profile picture
 		alert('Please upload a profile picture');

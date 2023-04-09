@@ -122,6 +122,40 @@
 	cursor: pointer;
 }
 
+.nav-right #login-btn.hidden {
+    display: none;
+}
+
+.avatar-container {
+	height: 3rem;
+	width: auto;
+	background-color: transparent;
+	border: 1px solid var(--blue);
+	border-radius: 50%;
+}
+
+.avatar-container img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.avatar-side {
+	height: auto;
+	width: 3rem;
+	background-color: transparent;
+	border: 1px solid var(--blue);
+	border-radius: 50%;
+}
+
+.avatar-side img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
 .menu {
 	position: absolute;
 	top: 200%;
