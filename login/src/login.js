@@ -14,10 +14,10 @@ sign_in_btn.addEventListener('click', () => {
 
 login_form.addEventListener('submit', (event) => {
     event.preventDefault();
-    window.location.href = "/Homepage.html";
+    window.location.href = "/user-upload/Avatar.html";
 });
 
 signup_form.addEventListener('submit', (event) => {
     event.preventDefault();
-    window.location.href = "/Homepage.html";
+    window.location.href = "/user-upload/Avatar.html";
 });

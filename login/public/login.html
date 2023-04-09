@@ -17,26 +17,27 @@
 					<h2 class="title">Sign In</h2>
 					<div class="input-field">
 						<i class="fas fa-user"></i>
-						<input type="text" placeholder="Username" />
+						<input type="text" placeholder="Username" pattern="[a-zA-Z]{3,}"
+							title="Username must be at least 3 characters long" required />
 					</div>
 					<div class="input-field">
 						<i class="fas fa-lock"></i>
-						<input type="password" placeholder="Password" />
+						<input type="password" placeholder="Password" required />
 					</div>
 					<input type="submit" value="Login" class="btn solid" id="login-btn" />
 
 					<p class="social-text">Or Sign in with Social Platforms</p>
 					<div class="social-media">
-						<a href="#" class="social-icon">
+						<a href="/user-upload/Avatar.html" class="social-icon">
 							<i class="fab fa-facebook-f"></i>
 						</a>
-						<a href="#" class="social-icon">
+						<a href="/user-upload/Avatar.html" class="social-icon">
 							<i class="fab fa-twitter"></i>
 						</a>
-						<a href="#" class="social-icon">
+						<a href="/user-upload/Avatar.html" class="social-icon">
 							<i class="fab fa-google"></i>
 						</a>
-						<a href="#" class="social-icon">
+						<a href="/user-upload/Avatar.html" class="social-icon">
 							<i class="fab fa-linkedin-in"></i>
 						</a>
 					</div>
@@ -46,11 +47,13 @@
 					<h2 class="title">Sign Up</h2>
 					<div class="input-field">
 						<i class="fas fa-user"></i>
-						<input type="text" placeholder="Username" />
+						<input type="text" placeholder="Username" pattern="[a-zA-Z]{3,}"
+							title="Username must be at least 3 characters long" required />
 					</div>
 					<div class="input-field">
 						<i class="fas fa-envelope"></i>
-						<input type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required title="Please enter a valid email address" />
+						<input type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+							required title="Please enter a valid email address" />
 					</div>
 					<div class="input-field">
 						<i class="fas fa-lock"></i>
@@ -60,16 +63,16 @@
 
 					<p class="social-text">Or Sign up with social platforms</p>
 					<div class="social-media">
-						<a href="#" class="social-icon">
+						<a href="/user-upload/Avatar.html" class="social-icon">
 							<i class="fab fa-facebook-f"></i>
 						</a>
-						<a href="#" class="social-icon">
+						<a href="/user-upload/Avatar.html" class="social-icon">
 							<i class="fab fa-twitter"></i>
 						</a>
-						<a href="#" class="social-icon">
+						<a href="/user-upload/Avatar.html" class="social-icon">
 							<i class="fab fa-google"></i>
 						</a>
-						<a href="#" class="social-icon">
+						<a href="/user-upload/Avatar.html" class="social-icon">
 							<i class="fab fa-linkedin-in"></i>
 						</a>
 					</div>
@@ -81,7 +84,8 @@
 			<div class="panel left-panel">
 				<div class="content">
 					<h3>Join GameByte today!</h3>
-					<p>Discover new games, connect with other players and stay up to date with the latest news and releases.</p>
+					<p>Discover new games, connect with other players and stay up to date with the latest news and
+						releases.</p>
 					<button class="btn transparent" id="sign-up-btn">Sign Up</button>
 				</div>
 				<img src="/login/src/img/signup.svg" class="image" alt="sing up image">
