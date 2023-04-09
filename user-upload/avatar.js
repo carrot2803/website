@@ -4,6 +4,8 @@ const container = document.querySelector('.container');
 const cancelButton = document.getElementById("cancel-btn");
 const continueButton = document.querySelector('.buttons .btn:not(#cancel-btn)');
 
+let selectedAvatar = null;
+
 // check if the image is empty
 if (!profilePic.getAttribute('src') || profilePic.getAttribute('src') === '#') {
 	// set container background color to white
@@ -24,6 +26,8 @@ fileInput.addEventListener("change", function () {
 		profilePic.setAttribute("src", reader.result);
 		// clear container background color
 		container.style.backgroundColor = 'transparent';
+		// update selectedAvatar with the file object
+		selectedAvatar = file;
 	});
 
 	if (file) {
@@ -41,10 +45,29 @@ continueButton.addEventListener("click", function (event) {
 	event.preventDefault();
 	// check if the image is the default one or not
 	if (profilePic.getAttribute('src') !== 'upload.png') {
-		// redirect to youtube.com
-		window.location.href = '/Homepage.html';
-	} else {
+		const canvas = document.createElement('canvas');
+		const ctx = canvas.getContext('2d');
+		const image = new Image();
+
+		image.onload = function () {
+			canvas.width = image.width;
+			canvas.height = image.height;
+			ctx.drawImage(image, 0, 0);
+
+			const dataURL = canvas.toDataURL('image/png');
+			localStorage.setItem('avatar', dataURL);
+			localStorage.setItem('avatarSelected', 'user');
+
+			console.log("Confirm button clicked!");
+			window.location.href = '/test.html';
+		};
+
+		image.src = URL.createObjectURL(selectedAvatar);
+	}
+	else {
 		// prompt the user to upload a profile picture
 		alert('Please upload a profile picture');
 	}
 });
+
+
