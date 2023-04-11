@@ -1,4 +1,3 @@
-
 fetch("/src/js/functions/users.json")
     .then(response => response.json())
     .then(posts => {
@@ -42,7 +41,28 @@ fetch("/src/js/functions/users.json")
 						</div>
 						</div>
 					`;
-                        postContainer.appendChild(div);
+                    postContainer.appendChild(div);
+                        const heartIcon = div.querySelector('.fa-heart');
+                        heartIcon.addEventListener('click', function () {
+                            const likesCount = div.querySelector('span'); // select the span element
+                            const currentLikes = post.likes[post.videoSources.indexOf(videoSource)];
+                            if (this.classList.contains('red-heart')) {
+                                post.likes[post.videoSources.indexOf(videoSource)] = parseInt(currentLikes) - 1;
+                                likesCount.textContent = post.likes[post.videoSources.indexOf(videoSource)];
+                                this.classList.remove('red-heart');
+                            } else {
+                                post.likes[post.videoSources.indexOf(videoSource)] = parseInt(currentLikes) + 1;
+                                likesCount.textContent = post.likes[post.videoSources.indexOf(videoSource)];
+                                this.classList.add('red-heart');
+                            }
+                        });
+
+                        const comments = div.querySelector('.fa-comment-dots');
+                        comments.addEventListener('click', function () {
+                            document.querySelector('#commentSection').removeAttribute('hidden');
+                        });
+                      
+                        
 
                         const video = div.querySelector('.video-style');
                         let isPlaying = false;

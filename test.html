@@ -25,7 +25,9 @@
 			</div>
 
 			<div class="nav-right">
-				<button class="upload-btn">Upload</button>
+				<button class="upload-btn">Upload Video</button>
+				<input type="file" id="videoInput" accept="video/*" style="display: none;" />
+
 				<img id="avatar-image" class="hidden">
 				<button id="login-btn">Log in</button>
 				<div class="drop-down" class="hidden">
@@ -47,6 +49,7 @@
 			</div>
 
 		</nav>
+		
 	</header>
 
 	<main>
@@ -124,10 +127,12 @@
 		<div class="contacts-sidebar">
 		</div>
 	</main>
+
+
 	<script type="text/javascript" src="/src/js/functions/sandbox.js"></script>
 	<script type="text/javascript" src="/src/js/functions/chat.js"></script>
 	<script type="text/javascript" src="/src/js/functions/menu.js"></script>
-	<script type="text/javascript" src="/src/js/functions/post.js"></script>
+	<!-- <script type="text/javascript" src="/src/js/functions/post.js"></script> -->
 	<script src="/src/js/functions/avatar.js"></script>
 	<script src="/src/js/functions/left.js"></script>
 	<script src="/src/js/functions/userlogin.js"></script>
@@ -138,5 +143,26 @@
 
 
 </body>
+<script>
+	const uploadButton = document.querySelector(".upload-btn");
+	const videoInput = document.getElementById("videoInput");
+	const videoContainer = document.getElementById("post-container");
+
+	uploadButton.addEventListener("click", () => {
+		videoInput.click();
+	});
+
+	videoInput.addEventListener("change", () => {
+		const file = videoInput.files[0];
+		const videoURL = URL.createObjectURL(file);
+		const videoElement = document.createElement("video");
+		videoElement.src = videoURL;
+		videoElement.controls = true;
+		videoElement.style.width = "100%";
+		videoElement.style.height = "auto";
+		videoContainer.appendChild(videoElement);
+	});
+
+</script>
 
 </html>
