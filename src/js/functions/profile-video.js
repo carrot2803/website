@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const username = params.get('username');
 
-fetch("js/functions/users.json")
+fetch("/src/js/functions/users.json")
 	.then(response => response.json())
 	.then(posts => {
 		const postContainer = document.getElementById("post-container");

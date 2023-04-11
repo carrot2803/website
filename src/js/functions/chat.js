@@ -2,7 +2,7 @@ const contactsSidebar = document.querySelector('.contacts-sidebar');
 const chatContainer = document.querySelector('.chat-container');
 const backButton = document.querySelector('.back-button');
 
-fetch("js/functions/users.json")
+fetch("/src/js/functions/users.json")
 	.then(response => response.json())
 	.then(usersData => {
 		// get the first 10 users from the JSON data

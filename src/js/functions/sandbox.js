@@ -138,6 +138,3 @@ newMessage.init();
 
 var newThumb = Object.create(Thumb);
 newThumb.init();
-
-
-

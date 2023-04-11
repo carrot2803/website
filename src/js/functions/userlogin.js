@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         newLoginButton.addEventListener('click', () => {
             // Redirect to login page
-            window.location.href = '/login/public/login.html';
+            window.location.href = '/public/login.html';
         });
 
         // replace the login button with the new button
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         newLoginButton.addEventListener('click', () => {
             // Redirect to login page
-            window.location.href = '/login/public/login.html';
+            window.location.href = '/public/login.html';
         });
 
         // replace the login button with the new button

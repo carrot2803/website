@@ -1,5 +1,5 @@
 
-fetch("js/functions/users.json")
+fetch("/src/js/functions/users.json")
     .then(response => response.json())
     .then(posts => {
         function shufflePosts(posts) {
