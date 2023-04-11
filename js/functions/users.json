@@ -32,7 +32,8 @@
         ],
         "shares": [
             "12.5K",
-            "2252"
+            "2252",
+            "20"
         ],
         "avatar": "https://i.seadn.io/gae/IRwLTPTK888vtmGUY9Lfx1nVxJLtEICFVAWNXSHopNkZgYEAF0Crd7WZHRuXMPQbpmMjCzapdO7tCN6XN_n-GObNu_furh4booFWSw?auto=format&w=1000"
     },
@@ -345,7 +346,7 @@
             "2512",
             "19K"
         ],
-        "avatar": "https://i.seadn.io/gae/ojxDE1F_svOZ1oS7Vq3jzm0obbEYYLpOvY_wtqM_HbCIhJcP_M3s9AUeyXW6kYgjNBFVKLAHNhlcWb_NyI08fN-1e_L6nHrUQk-S1w?auto=format&w=1000"
+        "avatar": "https://i.seadn.io/gae/nGdmw-s327kOHRcx4ms86Qea5tMSDyM_y3NHAt8FeyYWnTnqOBmFSymTDamkrm887NWTVe1ag0kxCnJhV99umL_FGknoL8df2fmU?auto=format&w=512"
     },
     {
         "userName": "simpfor.ganyu",
@@ -515,7 +516,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://pbs.twimg.com/media/EYih7a6UMAINxOA.jpg"
+                "src": "assets/video13.mp4"
             }
         ],
         "likes": [
@@ -578,7 +579,7 @@
     {
         "userName": "arashi",
         "game": [
-            "Elden Ring",
+            "VALORANT",
             "Minecraft",
             "Minecraft"
         ],

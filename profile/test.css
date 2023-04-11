@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #c7d2fe 0%, #fbc7d4 100%);
+}
+
+.profile {
+    margin: auto;
+    background: linear-gradient(135deg, #c7d2fe 0%, #fbc7d4 100%);
+    border-radius: 40px;
+    width: 480px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.watch {
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+}
+
+.cancel {
+    background-color: transparent;
+}
+
+.button {
+    width: 186px;
+    height: 54px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 12px;
+    color: white;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.button:first {
+    margin-left: 0px;
+}
+
+.profile-card {
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    object-fit: cover;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}

@@ -1,6 +1,6 @@
-
 .contacts-sidebar {
 	display: flex;
+	flex-direction: column;
 	flex:0.2;
 	top: 0;
 	right: 0;
@@ -14,13 +14,20 @@
 .contacts-sidebar ul {
 	display: initial;
 	margin-block-start: initial;
-	padding-left: 0;
-	
+	padding-left: 0rem;
+	font-size: medium;
 }
 
 .contacts-sidebar li {
 	padding-left: 1rem;
 	padding-bottom: 2.5rem;
+	font-size: medium;
+}
+
+.contacts-sidebar h1 {
+	padding-left: 1rem;
+	padding-bottom: 0rem;
+	color:#333;
 }
 
 .contacts-sidebar img {
@@ -31,8 +38,10 @@
 }
 
 .contacts-sidebar a {
+	width:auto;
 	display: flex;
 	align-items: center;
+	font-size: medium;
 	color: #333;
 	text-decoration: none;
 }

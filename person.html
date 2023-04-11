@@ -8,14 +8,117 @@
 	<title>GameByte</title>
 	<script src="https://kit.fontawesome.com/1a015cf62c.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="/css/index.css">
+	<link rel="style" href="person.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<!-- <script type="module" src="post.js"></script> -->
+	<style>
+		.right {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			overflow-x: auto;
+			scroll-snap-type: x mandatory;
+			scroll-padding: 0 1.5rem;
+			/* set padding to match right margin of post */
+		}
+
+		.post {
+			margin-top: 0rem;
+			margin-right: 25rem;
+			margin-left: 1rem;
+			margin-bottom: 1.5rem;
+			padding-bottom: 0;
+			height: 38rem;
+			width: 80%;
+			border-bottom: 0.1px solid rgb(200, 200, 200);
+			scroll-snap-align: start;
+		}
+
+		.post-info {
+			display: flex;
+			justify-content: space-between;
+			padding-left: 4rem;
+			white-space: nowrap;
+			width: 100%;
+		}
+
+		.post-info>.user:hover {
+			background-color: transparent;
+		}
+
+		.post-info>.user>img {
+			height: 60px;
+			width: 60px;
+		}
+
+		.post-info>.user>div {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			height: 100%;
+			margin-left: 1rem;
+		}
+
+		.post-info>.user>div>h6 {
+			font-size: 1rem;
+		}
+
+		.post-info>.user>div>h6:hover {
+			text-decoration: underline;
+		}
+
+		.post-info>.user>div>p {
+			margin-left: 0rem;
+			font-size: 0.8rem;
+			font-weight: 600;
+			width: auto;
+		}
+
+		.post-info>button {
+			margin-top: 1rem;
+			margin-left: auto;
+			/* align button to the right */
+			background-color: transparent;
+			border: 1px solid rgb(91, 111, 226);
+			color: rgb(44, 10, 156);
+			font-size: 0.9rem;
+			font-weight: 600;
+			cursor: pointer;
+			border-radius: 5px;
+			height: 1.7rem;
+			width: 5.7rem;
+		}
+
+		.post-info>button:hover {
+			background-color: rgba(254, 44, 86, 0.05);
+		}
+
+		.post-content {
+			display: flex;
+			width: 20rem;
+			margin-bottom: 1rem;
+			position: relative;
+		}
+
+		.video-style {
+			width: 90%;
+			max-width: 600px;
+			cursor: pointer;
+			border-radius: 8px;
+			/* set a maximum width for the video */
+			height: calc(18rem * 1.7778);
+			/* calculate the height based on the aspect ratio (9:16) */
+			object-fit: cover;
+			/* use object-fit to fill the container while preserving the aspect ratio */
+		}
+	</style>
+
 </head>
 
 <body>
 	<header>
 		<nav class="navbar">
-			<img class="logo" src="assets/logo.jpg" alt="GameByte">
+			<img class="logo" src="/assets/logo.jpg" alt="GameByte">
 			<div class="search-bar">
 				<input type="text" class="search-input" placeholder="What would you like to look for" />
 				<button class="search-btn">
@@ -44,7 +147,6 @@
 					</div>
 				</div>
 			</div>
-
 		</nav>
 	</header>
 
@@ -58,8 +160,6 @@
 			<div class="login">
 				<p>Log in to follow to view comments</p>
 				<button>Log in</button>
-			</div>
-			<div class="accounts">
 			</div>
 			<div class="tags">
 				<p>Discover</p>
@@ -116,19 +216,20 @@
 			</div>
 		</div>
 
+
 		<div class="contacts-sidebar">
 		</div>
+
 	</main>
 	<script type="text/javascript" src="/js/functions/sandbox.js"></script>
 	<script type="text/javascript" src="/js/functions/chat.js"></script>
 	<script type="text/javascript" src="/js/functions/menu.js"></script>
-	<script type="text/javascript" src="/js/functions/post.js"></script>
 	<script src="/user-upload/avatar.js"></script>
 	<script src="/js/functions/left.js"></script>
 	<script src="/js/functions/userlogin.js"></script>
-	<script>
+	<script src="/js/functions/person.js"></script>
+	
 
-	</script>
 </body>
 
 </html>

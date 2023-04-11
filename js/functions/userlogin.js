@@ -41,7 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
         loginContainer.removeChild(loginContainer.firstChild); // remove old element
         loginContainer.removeChild(loginContainer.firstChild); // remove the <p> element
         loginContainer.replaceChild(avatarImage, loginButton); // replace the login button with the avatar image
-    } else {
+    } 
+    else {
         // User is not logged in
         const newLoginButton = document.createElement('button');
         newLoginButton.innerText = 'Log in';

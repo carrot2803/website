@@ -195,3 +195,17 @@
 	margin-top: 1rem;
 	color: rgb(80, 80, 80);
 }
+.avatar-side {
+	height: auto;
+	width: 3rem;
+	background-color: transparent;
+	border: 1px solid var(--blue);
+	border-radius: 50%;
+}
+
+.avatar-side img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+}

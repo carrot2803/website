@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>User Profile</title>
+	<link rel="stylesheet" href="test.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="profile">
+	</div>
+</body>
+
+<script>
+	const params = new URLSearchParams(window.location.search);
+	const username = params.get('username');
+	fetch("/js/functions/users.json")
+		.then(response => response.json())
+		.then(users => {
+			const user = users.find(user => user.userName === username);
+			const profile = document.querySelector('.profile');
+
+			const profileHTML = `
+				<img src=${user.avatar} alt="" class="photo">
+				<span class="name">${user.userName}</span>
+				<div class="buttons">
+					<div class="button cancel">
+						Return To Home
+					</div>
+					<div class="button watch">
+						Watch Videos
+					</div>
+				</div>
+			`;
+
+			profile.innerHTML = profileHTML;
+
+			const cancel = profile.querySelector('.cancel');
+			const watch = profile.querySelector('.watch');
+
+			cancel.addEventListener("click", function (event) {
+				window.location.href = '/Homepage.html';
+			});
+
+			watch.addEventListener("click", function (event) {
+				window.location.href = `/person.html?username=${user.userName}`;
+			});
+		});
+
+</script>
+
+</html>
