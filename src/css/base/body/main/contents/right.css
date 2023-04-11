@@ -8,9 +8,8 @@ ul {
 }
 
 li {
-	margin-top: 0.25rem;
-	margin-bottom: 0.25rem;
-	padding-top: 0.5rem;
+	margin: 0.25rem 0;
+	padding: 0.5rem 0 0 0;
 	height: 2.5rem;
 	width: 100%;
 }
@@ -27,8 +26,7 @@ li>a {
 }
 
 li>a>i {
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin: 0 1rem;
 }
 
 .hidden {
@@ -52,16 +50,16 @@ main {
 	flex: 0.65;
 	height: 100vh;
 	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
 }
 
 .post {
-	margin-top: 0.5rem;
-	margin-right: 0rem;
-	margin-bottom: 0rem;
+	margin: 0.5rem 0 0 0;
 	padding-bottom: 0;
 	height: 38rem;
 	width: 80%;
 	border-bottom: 0.1px solid rgb(200, 200, 200);
+	scroll-snap-align: start;
 }
 
 .post-info {
@@ -124,7 +122,6 @@ main {
 }
 
 .post-content>video {
-	/* height: auto; */
 	width: 90%;
 	border-radius: 10px;
 	margin-left: 5rem;
