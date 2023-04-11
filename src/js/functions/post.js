@@ -41,7 +41,8 @@ fetch("/src/js/functions/users.json")
 						</div>
 						</div>
 					`;
-                    postContainer.appendChild(div);
+                        postContainer.appendChild(div);
+
                         const heartIcon = div.querySelector('.fa-heart');
                         heartIcon.addEventListener('click', function () {
                             const likesCount = div.querySelector('span'); // select the span element
@@ -57,12 +58,26 @@ fetch("/src/js/functions/users.json")
                             }
                         });
 
+                        const shareIcon = div.querySelector('.fa-share');
+                        shareIcon.addEventListener('click', function () {
+                            const url = window.location.href;
+                            navigator.clipboard.writeText(url).then(function () {
+                                // Display a message to the user
+                                alert('Link copied to clipboard!');
+                            
+                                // Change the share icon color to red
+                                shareIcon.style.color = 'red';
+                              }, function () {
+                                alert('Unable to copy link to clipboard');
+                              });
+                        });
+
                         const comments = div.querySelector('.fa-comment-dots');
                         comments.addEventListener('click', function () {
                             document.querySelector('#commentSection').removeAttribute('hidden');
                         });
-                      
-                        
+
+
 
                         const video = div.querySelector('.video-style');
                         let isPlaying = false;

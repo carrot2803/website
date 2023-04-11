@@ -31,7 +31,7 @@ fetch("/src/js/functions/users.json")
     src="${post.avatar}" alt="avatar" width="60"
     height="60" />
   <div>
-    <h6 class="fw-bold mb-1" style="font-size: 1.2rem;">${post.userName} <span class="badge bg-primary">${post.friend ? "Friends" : "Not Friends"}</span></h6>
+    <h6 class="fw-bold mb-1" style="font-size: 1.2rem;">${post.userName} <span class="badge bg-primary">${post.friend ? "Friend+" : "Friend"}</span></h6>
     <div class="d-flex align-items-center">
       <p class="mb-0" style="font-size: 0.8rem;">${formattedDate}</p>
       <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
