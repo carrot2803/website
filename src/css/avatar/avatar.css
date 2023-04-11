@@ -8,7 +8,7 @@
 }
 
 body {
-	background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+	background: linear-gradient(135deg, #c669e2 0%, #0903b3 115%);
 }
 
 .main {
@@ -87,7 +87,7 @@ span {
 	border-radius: 25px;
 	font-size: 18px;
 	white-space: nowrap;
-	background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+	background: transparent
 }
 
 .buttons .btn:hover {
@@ -142,5 +142,3 @@ input[type="file"] {
 	opacity: 0;
 	cursor: pointer;
 }
-
-  
