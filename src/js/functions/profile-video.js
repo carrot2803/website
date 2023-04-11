@@ -2,15 +2,15 @@ const params = new URLSearchParams(window.location.search);
 const username = params.get('username');
 
 fetch("/src/js/functions/users.json")
-	.then(response => response.json())
-	.then(posts => {
-		const postContainer = document.getElementById("post-container");
-		posts.forEach(post => {
-			if (post.userName == username)
-				post.videoSources.forEach(videoSource => {
-					const div = document.createElement("div");
-					div.className = "post";
-					div.innerHTML = `
+    .then(response => response.json())
+    .then(posts => {
+        const postContainer = document.getElementById("post-container");
+        posts.forEach(post => {
+            if (post.userName == username)
+                post.videoSources.forEach(videoSource => {
+                    const div = document.createElement("div");
+                    div.className = "post";
+                    div.innerHTML = `
                         <div class="post-info">
                         <div class="user">
                             <img src="${post.avatar}" alt="avatar">
@@ -32,7 +32,32 @@ fetch("/src/js/functions/users.json")
                         </div>
                         </div>
                     `;
-					postContainer.appendChild(div);
-				});
-		})
-	});
+                    postContainer.appendChild(div);
+
+
+                    const video = div.querySelector('.video-style');
+                    let isPlaying = false;
+
+                    const options = {
+                        root: null,
+                        rootMargin: '0px',
+                        threshold: [0.4, 0.6] // Play video when it is at least 40% in view and pause when it is less than 60% in view
+                    };
+
+                    const observer = new IntersectionObserver(entries => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting && !isPlaying) {
+                                video.play();
+                                isPlaying = true;
+                            } else if (!entry.isIntersecting && isPlaying) {
+                                video.pause();
+                                isPlaying = false;
+                            }
+                        });
+                    }, options);
+
+                    observer.observe(video);
+
+                });
+        })
+    });
