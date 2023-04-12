@@ -111,7 +111,7 @@ main {
 	margin-top: 1rem;
 	background-color: transparent;
 	border: 1px solid rgb(91, 111, 226);
-	color: rgb(44, 10, 156);
+	color: var(--blue);
 	font-size: 0.9rem;
 	font-weight: 600;
 	cursor: pointer;
@@ -120,8 +120,9 @@ main {
 	width: 5.7rem;
 }
 
-.post-info>button:hover {
-	background-color: rgba(254, 44, 86, 0.05);
+.post-info > .friend{
+	background-color: var(--blue);
+	color: white;
 }
 
 .post-content {

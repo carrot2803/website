@@ -27,13 +27,13 @@
 
 .chat-header button {
 	margin-left: 15rem;
-	height: 1.25rem;
+	height: 2rem;
 	color: #1998e6;
 	background-color: white;
 	border-width: 5px;
 	border-style: solid;
 	border-color: white;
-	border-radius: 10px;
+	border-radius: 50%;
 }
 
 .clearfix:after,

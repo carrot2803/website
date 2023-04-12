@@ -47,7 +47,7 @@
 .login {
 	display: flex;
 	flex-direction: column;
-	margin-top: 1rem;
+	margin-top: 0.5rem;
 	border-bottom: 1px solid rgb(200, 200, 200);
 	padding-bottom: 1rem;
 	margin-left: 2rem;
@@ -67,6 +67,10 @@
 	border-radius: 5px;
 	height: 3rem;
 	width: 70%;
+}
+
+.login>p{
+	margin-bottom: 0;
 }
 
 .login>button:hover {
