@@ -3,10 +3,10 @@
 
 body {
 	height: 100vw;
-	display: flex;
+	display: flex;	
 	flex-direction: column;
 	font-family: sans-serif;
-	background-color: white;
-	overflow: hidden;
+	background-color: var(--white);
+	overflow: hidden
 }
 

@@ -12,7 +12,7 @@
 .btns {
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid rgb(200, 200, 200);
+	border-bottom: 1px solid var(--outline);
 	padding-bottom: 1rem;
 	margin-top: 1rem;
 	margin-left: 2rem;
@@ -23,7 +23,7 @@
 .btns>a {
 	text-decoration: none;
 	font-size: 1.2rem;
-	color: rgb(22, 24, 35);
+	color: var(--left-btn);
 	font-weight: 600;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -32,12 +32,12 @@
 }
 
 .btns>a:hover {
-	background-color: rgb(245, 245, 245);
+	background-color: var(--hover);
 }
 
 .btns>a:first-child>i,
 .btns>a:first-child>span {
-	background-color: rgb(245, 245, 245);
+	background-color: var(--hover);
 }
 
 .btns>a>i {
@@ -48,7 +48,7 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 0.5rem;
-	border-bottom: 1px solid rgb(200, 200, 200);
+	border-bottom: 1px solid var(--outline);
 	padding-bottom: 1rem;
 	margin-left: 2rem;
 	/* margin-right: 1rem; */
@@ -59,10 +59,10 @@
 .login>button {
 	margin-top: 1rem;
 	background-color: transparent;
-	border: 1px solid #6287ea;
+	border: 1px solid var(--blue);
 	font-size: 1.2rem;
 	font-weight: 600;
-	color: #6287ea;
+	color: var(--blue);
 	cursor: pointer;
 	border-radius: 5px;
 	height: 3rem;
@@ -74,13 +74,14 @@
 }
 
 .login>button:hover {
-	background-color: rgba(245, 44, 86, 0.05);
+	background-color: var(--hover-blue);
+	color: var(--hover);
 }
 
 .accounts {
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid rgb(200, 200, 200);
+	border-bottom: 1px solid var(--outline);
 	padding-bottom: 1rem;
 	margin-left: 2rem;
 	/* margin-right: 1rem; */
@@ -90,8 +91,8 @@
 
 .accounts>p {
 	margin-top: 1rem;
-	color: rgb(22, 24, 35, 0.75);
-	font-size: 0.8rem;
+	color: var(--userName);
+	font-size: 1rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
 }
@@ -106,7 +107,7 @@
 }
 
 .user:hover {
-	background-color: rgb(245, 245, 245);
+	background-color: var(--hover);
 	cursor: pointer;
 }
 
@@ -114,7 +115,7 @@
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
-	border: 0.5px solid #000;
+	border: 0.5px solid var(--textcol);
 }
 
 .user>h6 {
@@ -126,7 +127,7 @@
 .tags {
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid rgb(200, 200, 200);
+	border-bottom: 1px solid var(--outline);
 	padding-bottom: 1rem;
 	margin-top: 1rem;
 	margin-left: 2rem;
@@ -136,7 +137,7 @@
 
 .tags>p {
 	margin-top: 1rem;
-	color: rgba(22, 24, 35, 0.75);
+	color: var(--tags);
 	font-size: 0.8rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
@@ -151,16 +152,16 @@
 
 .tags>div>a {
 	text-decoration: none;
-	color: rgba(22, 24, 35, 0.75);
+	color: var(--tags);
 	font-size: 0.9rem;
-	border: 1px solid rgb(200, 200, 200);
+	border: 1px solid var(--outline);
 	border-radius: 5px;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 }
 
 .tags>div>a:hover {
-	background-color: rgb(245, 245, 245);
+	background-color: var(--hover);
 }
 
 .links {
@@ -188,7 +189,7 @@
 .link>a {
 	font-size: 0.8rem;
 	text-decoration: none;
-	color: rgb(80, 80, 80);
+	color: var(--userName);
 }
 
 .link>a:hover {
@@ -197,7 +198,7 @@
 
 .copyright {
 	margin-top: 1rem;
-	color: rgb(80, 80, 80);
+	color: var(--userName);
 }
 .avatar-side {
 	height: auto;

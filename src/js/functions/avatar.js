@@ -10,8 +10,7 @@ let selectedAvatar = null;
 if (!profilePic.getAttribute('src') || profilePic.getAttribute('src') === '#') {
 	// set container background color to white
 	container.style.backgroundColor = '#ffffff';
-	// set default image source
-	profilePic.setAttribute('src', 'default.jpg');
+	profilePic.setAttribute('src', 'default.jpg'); // set default image source
 }
 
 profilePic.addEventListener("click", function () {
@@ -64,7 +63,6 @@ continueButton.addEventListener("click", function (event) {
 
 			window.location.href = '/public/Homepage.html';
 		};
-
 		image.src = URL.createObjectURL(selectedAvatar);
 	}
 

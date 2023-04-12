@@ -15,7 +15,7 @@ li {
 }
 
 li:hover {
-	background-color: rgb(245, 245, 245);
+	background-color: var(--hover);
 }
 
 li>a {
@@ -58,12 +58,12 @@ main {
 	padding-bottom: 0;
 	height: 38rem;
 	width: 80%;
-	border-bottom: 0.1px solid rgb(200, 200, 200);
+	border-bottom: 0.1px solid var(--search-background);
 	scroll-snap-align: start;
 }
 
 #commentSection {
-	background-color: white;
+	background-color: var(--hover);
 	position: absolute;
 	top: 60%;
 	left: 43.9%;
@@ -107,11 +107,11 @@ main {
 	font-weight: 600;
 }
 
-.post-info>button {
+.post-info>button {	
 	margin-top: 1rem;
-	background-color: transparent;
-	border: 1px solid rgb(91, 111, 226);
 	color: var(--blue);
+	border: 1px solid rgb(91, 111, 226);
+	background-color: var(--background);
 	font-size: 0.9rem;
 	font-weight: 600;
 	cursor: pointer;
@@ -120,9 +120,14 @@ main {
 	width: 5.7rem;
 }
 
+.post-info>button:hover{
+	background-color: var(--blue);
+	color: var(--background);
+}
+
 .post-info > .friend{
 	background-color: var(--blue);
-	color: white;
+	color: var(--hover);
 }
 
 .post-content {
@@ -157,20 +162,20 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: rgb(245, 245, 245);
+	background-color: var(--hover);
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
 }
 
 .video-icons>a>i:hover {
-	background-color: rgb(230, 230, 230);
+	background-color: var(--icon-hover);
 	overflow: hidden;
 }
 
 .video-icons>a>span {
 	font-size: 0.7rem;
-	color: rgb(80, 80, 80);
+	color: var(--userName);
 	font-weight: 600;
 	margin-bottom: 0.7rem;
 }

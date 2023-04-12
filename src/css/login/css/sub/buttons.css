@@ -15,9 +15,9 @@
     justify-content: center;
     align-items: center;
     margin: 0 0.45rem;
-    color: #333;
+    color: var(--outlining);
     border-radius: 50%;
-    border: 1px solid #333;
+    border: 1px solid var(--outlining);
     text-decoration: none;
     font-size: 1.1rem;
     transition: 0.3s;

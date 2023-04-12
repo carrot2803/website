@@ -94,6 +94,7 @@ searchInput.addEventListener('focus', function () {
 });
 
 searchInput.addEventListener('blur', function () {
+    keepSearchResultsDisplayed = false;
     if (!keepSearchResultsDisplayed) {
         searchResults.style.display = 'none';
     }

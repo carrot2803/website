@@ -1,3 +1,27 @@
 :root {
-	--blue: #002ead;
+    --white: #fff;
+	--blue: #0766c6;	
+	--hover-blue: #0554a3;
+}
+
+.light {
+    --background: var(--white);
+	--shadow: rgba(0, 0, 0, 0.1);
+	--btn: var(--blue);
+	--btn-hover: var(--hover-blue);
+	--outline: #ccc;
+	--textcol: #000;
+	--search-background:  #e8e8e8; 
+	--search-hover: #dcdcdc; 
+	--hover: rgb(245, 245, 245);
+	--contactName: #333;
+	--userName: rgb(80, 80, 80);
+	--tags: rgba(22, 24, 35, 0.75);
+	--left-btn: rgb(22, 24, 35);
+	--icon-hover: rgb(230, 230, 230);
+}
+
+.dark {
+    ---background: #2a2e35;
+
 }

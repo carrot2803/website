@@ -14,6 +14,10 @@
     left: 0;
 }
 
+.social-text{
+    color: var(--input-field)
+}
+
 .signin-signup {
     position: absolute;
     top: 50%;
@@ -76,15 +80,15 @@ form.sign-in-form {
 
 .input-field input {
     background: none;
-    outline: none;
+    outline: var(--input-field);
     border: none;
     line-height: 1;
     font-weight: 600;
     font-size: 1.1rem;
-    color: 0.75 * var(--input-field);
+    color: var(--input-field);
 }
 
 .input-field input::placeholder {
-    color: #aaa;
+    color: var(--input-field);
     font-weight: 500;
 }

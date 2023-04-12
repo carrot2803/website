@@ -6,9 +6,8 @@
 	right: 0;
 	width: 15rem;
 	height: 90%;
-	background-color: #fff;
-	border-left: 1px solid #ddd;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: var(--background);
+	border-left: 1px solid var(--outline);
 }
 
 .contacts-sidebar ul {
@@ -26,8 +25,9 @@
 
 .contacts-sidebar h1 {
 	padding-left: 1rem;
-	padding-bottom: 0rem;
-	color:#333;
+	padding-bottom: 0.5rem;
+	color: var(--contactName);
+	font-size: xx-large;
 }
 
 .contacts-sidebar img {
@@ -42,10 +42,10 @@
 	display: flex;
 	align-items: center;
 	font-size: medium;
-	color: #333;
+	color: var(--contactName);
 	text-decoration: none;
 }
 
 .contacts-sidebar a:hover {
-	color: #000;
+	color: var(--textcol);
 }
