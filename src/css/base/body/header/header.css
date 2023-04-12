@@ -121,7 +121,7 @@
 }
 
 .nav-right #login-btn.hidden {
-    display: none;
+	display: none;
 }
 
 .avatar-container {
@@ -149,4 +149,33 @@
 	width: 14rem;
 	border-radius: 5px;
 	box-shadow: 5px 3px 5px 5px rgba(0, 0, 0, 0.097);
+}
+
+.search-results {
+	display: none;
+	background-color: #e8e8e8;
+	border-radius: 16px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	margin-top: 4rem;
+	margin-left: 0.4rem;
+	position: absolute;
+	width: 300px;
+	height: 10rem;
+	z-index: 2;
+	max-height: calc(100vh - 80px);
+	overflow-y: auto;
+}
+
+.search-results a {
+	color: #000;
+	display: block;
+	padding: 0.01rem 1.5rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: medium;
+	text-decoration: none;
+}
+
+.search-results a:hover {
+	background-color: #f1f1f1;
 }
