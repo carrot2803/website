@@ -20,12 +20,12 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #c7d2fe 0%, #fbc7d4 100%);
+    background: linear-gradient(135deg, #c669e2 0%, #0903b3 115%);
 }
 
 .profile {
     margin: auto;
-    background: linear-gradient(135deg, #c7d2fe 0%, #fbc7d4 100%);
+    background: linear-gradient(135deg, #c669e2 0%, #0903b3 115%);
     border-radius: 40px;
     width: 480px;
     padding: 50px;
@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .photo {
@@ -50,7 +50,7 @@ body {
 }
 
 .watch {
-    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    background: transparent;
 }
 
 .cancel {
