@@ -22,13 +22,13 @@ fetch("/src/js/functions/users.json")
                         div.innerHTML = `
 						<div class="post-info">
 						<div class="user">
-							<img src="${post.avatar}" alt="avatar">
+							    <img src="${post.avatar}" alt="avatar">
 							<div>
-							<h6>${post.userName}</h6>
-							<p>${post.game[post.videoSources.indexOf(videoSource)]}</p>
+                                <h6>${post.userName}</h6>
+                                <p>${post.game[post.videoSources.indexOf(videoSource)]}</p>
 							</div>
 						</div>
-						<button>Follow</button>
+						<button>${post.friend ? "Add+" : "Friend"}</button>
 						</div>
 						<div class="post-content">
 						<video class="video-style" controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
@@ -42,6 +42,21 @@ fetch("/src/js/functions/users.json")
 						</div>
 					`;
                         postContainer.appendChild(div);
+
+                        const friend = div.querySelector("button");
+                        friend.addEventListener('click', function () {
+                            if (this.classList.contains('friend')) {
+                                this.classList.remove('friend');
+                                this.textContent = "Add+";
+                                post.friend = false;
+                            }
+                            else {
+                                this.classList.add('friend');
+                                post.friend = true; // update the post.friend property
+                                this.textContent = "Friend"; // update the text on the button
+                                console.log("add friend");
+                            }
+                        });
 
                         const heartIcon = div.querySelector('.fa-heart');
                         heartIcon.addEventListener('click', function () {
@@ -64,12 +79,12 @@ fetch("/src/js/functions/users.json")
                             navigator.clipboard.writeText(url).then(function () {
                                 // Display a message to the user
                                 alert('Link copied to clipboard!');
-                            
+
                                 // Change the share icon color to red
                                 shareIcon.style.color = 'red';
-                              }, function () {
+                            }, function () {
                                 alert('Unable to copy link to clipboard');
-                              });
+                            });
                         });
 
                         const comments = div.querySelector('.fa-comment-dots');
@@ -77,7 +92,11 @@ fetch("/src/js/functions/users.json")
                             document.querySelector('#commentSection').removeAttribute('hidden');
                         });
 
-
+                        const user = div.querySelector('.user div');
+                        const username = user.querySelector('.user h6');
+                        username.addEventListener('click', () => {
+                            window.location.href = `/public/UserProfile.html?username=${post.userName}`;
+                        });
 
                         const video = div.querySelector('.video-style');
                         let isPlaying = false;
@@ -96,7 +115,7 @@ fetch("/src/js/functions/users.json")
                         }
 
                         window.requestAnimationFrame(checkVideoInView);
-                    }//Jared was here
+                    }//\
                 });
             });
         }
