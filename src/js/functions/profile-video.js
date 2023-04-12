@@ -19,7 +19,7 @@ fetch("/src/js/functions/users.json")
                             <p>${post.game[post.videoSources.indexOf(videoSource)]}</p>
                             </div>
                         </div>
-                        <button>Follow</button>
+                        <button>Friend</button>
                         </div>
                         <div class="post-content">
                         <video class="video-style" controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
