@@ -98,23 +98,33 @@ fetch("/src/js/functions/users.json")
                             window.location.href = `/public/UserProfile.html?username=${post.userName}`;
                         });
 
+                        const gameName = user.querySelector('.user p');
+                        gameName.addEventListener('click', () => {
+                            window.location.href = `/public/Game-Video.html?gameName=${post.game[post.videoSources.indexOf(videoSource)]}`;
+                        });
+
+                        postContainer.appendChild(div);
                         const video = div.querySelector('.video-style');
                         let isPlaying = false;
 
-                        function checkVideoInView() {
-                            const rect = video.getBoundingClientRect();
-                            const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight) * 0.8; // Decrease the viewHeight by 20% to lower the rate of playing
-                            if (rect.bottom >= viewHeight && rect.top <= viewHeight * 0.6 && !isPlaying) { // Increase the top value and decrease the bottom value to increase the rate of pausing
-                                video.play();
-                                isPlaying = true;
-                            } else if ((rect.bottom < viewHeight || rect.top > viewHeight * 0.6) && isPlaying) {
-                                video.pause();
-                                isPlaying = false;
-                            }
-                            window.requestAnimationFrame(checkVideoInView);
-                        }
+                        const options = {
+                            root: null,
+                            rootMargin: '0px',
+                            threshold: [0.4, 0.6] // Play video when it is at least 40% in view and pause when it is less than 60% in view
+                        };
 
-                        window.requestAnimationFrame(checkVideoInView);
+                        const observer = new IntersectionObserver(entries => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting && !isPlaying) {
+                                    video.play();
+                                    isPlaying = true;
+                                } else if (!entry.isIntersecting && isPlaying) {
+                                    video.pause();
+                                    isPlaying = false;
+                                }
+                            });
+                        }, options);
+                        observer.observe(video);
                     }//\
                 });
             });
