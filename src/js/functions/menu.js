@@ -26,27 +26,48 @@ document.querySelector(".logo").addEventListener('click', () => {
 	window.location.href = '/public/Homepage.html';
 });
 
-$(document).ready(function () { // theme switch
-    var themes = ["light", "dark", "solar", "dark-solar"];
-    var themeIndex = 1;
+$(document).ready(function () {
+	// Define themes and retrieve selected theme from localStorage
+	var themes = ["light", "dark", "solar", "dark-solar"];
+	var selectedTheme = localStorage.getItem("selectedTheme");
+	if (selectedTheme && themes.includes(selectedTheme)) {
+		$("body").addClass(selectedTheme);
+	} else {
+		$("body").addClass(themes[0]);
+	}
 
-    $(".menu li:nth-child(2)").on("click", function () {
-        $("body").removeClass();
-        $("body").addClass(themes[themeIndex]);
-        themeIndex = (themeIndex + 1) % themes.length;
-    });
+	// Switch theme on menu click
+	$(".menu li:nth-child(2)").on("click", function () {
+		var currentThemeIndex = themes.indexOf($("body").attr("class"));
+		var nextThemeIndex = (currentThemeIndex + 1) % themes.length;
+		var nextTheme = themes[nextThemeIndex];
+		$("body").removeClass().addClass(nextTheme);
+
+		// Store selected theme in localStorage
+		localStorage.setItem("selectedTheme", nextTheme);
+	});
 });
+
 
 $(document).ready(function () {
-    $(".menu li:nth-child(3)").on("click", function () {
-        for (let key in localStorage) {
-            if (key !== "videos") {
-                localStorage.removeItem(key); // Remove everything except for "videos"
-            }
-        }
-        console.log("Logout initiated");
-    });
+	$(".menu li:nth-child(3)").on("click", function () {
+		for (let key in localStorage) {
+			if (key !== "videos") {
+				localStorage.removeItem(key); // Remove everything except for "videos"
+			}
+		}
+		console.log("Logout initiated");
+	});
 });
 
+function checkAvatar() {
+	const avatar = localStorage.getItem("avatarSelected");
+	if (!avatar) {
+		window.location.replace("/public/Login.html");
+	}
+	else{
+		window.location.replace("/public/Upload.html");
+	}
+}
 
 

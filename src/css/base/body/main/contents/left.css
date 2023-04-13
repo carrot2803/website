@@ -71,7 +71,7 @@
 
 .login>button:hover {
 	background-color: var(--hover-blue);
-	color: var(--login-btn);
+	color: var(--white);
 }
 
 .accounts {

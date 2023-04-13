@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class = "light">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8" />
@@ -9,7 +9,7 @@
 	<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="light">
 	<div class="container">
 		<div class="forms-container">
 			<div class="signin-signup">
@@ -103,6 +103,22 @@
 	</div>
 
 	<script src="/src/js/functions/login.js"></script>
+	<script>
+		// Get the current theme from local storage
+		const currentTheme = localStorage.getItem("selectedTheme");
+	  
+		// Set the theme of the body element based on the current theme
+		if (currentTheme === 'dark') 
+		  document.body.classList.add('dark');
+		else if(currentTheme === 'solar')
+		  document.body.classList.add("solar");
+		else if(currentTheme === 'light')
+			document.body.classList.add("solar");
+		else
+			document.body.classList.add("light");
+		
+	  </script>
+	  
 </body>
 
 </html>

@@ -14,11 +14,12 @@
 }
 
 .logo {
-	background-color: transparent;
+	background-color: var(--logo-invert);
 	height: 3rem;
 	width: auto;
 	margin: 0 15rem 0 3rem;
 }
+
 
 .logo:hover {
 	cursor: pointer;
@@ -150,7 +151,7 @@
 	border-radius: 50%;
 }
 
-.avatar-container{
+.avatar-container {
 	cursor: pointer;
 }
 

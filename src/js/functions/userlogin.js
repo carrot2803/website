@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         loginButton.classList.add('hidden');
 
         avatarImage.onclick = function () {
-            window.location.href = 'https://www.youtube.com/';
+            window.location.href = '/public/Avatar.html';
         }
     }
 });
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         avatarImage.onclick = function () {
-            window.location.href = 'https://www.youtube.com/';
+            window.location.href = '/public/Avatar.html';
         }
 
 

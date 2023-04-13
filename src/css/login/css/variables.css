@@ -29,3 +29,25 @@
     --image-background: linear-gradient(-45deg, #4594ee 0%, #0766c6 50%, #0a0f23 100%);
     --outlining: var(--white);
 }
+
+
+.solar {
+    ---background: #7eb8f2;
+    --title: var(--white);
+    --input-field: var(--white);
+    --social-icon: var(--social-blue);
+    --btn: #FF6F61;
+    --image-background: linear-gradient(-45deg, #FFB900 0%, #FF6F61 50%, #0a0f23 100%);
+    --outlining: var(--white);
+}
+
+
+.solar-dark{
+    ---background:  #1F2937;
+    --title: var(--white);
+    --input-field: var(--white);
+    --social-icon: var(--social-blue);
+    --btn: #FF6F61;
+    --image-background: linear-gradient(-45deg,  #38BDF8 0%, #FF6F61 50%, #0a0f23 100%);
+    --outlining: var(--white);
+}

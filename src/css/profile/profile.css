@@ -50,7 +50,7 @@ body {
 }
 
 .watch {
-    background: transparent;
+    background: linear-gradient(0deg, #c669e2 3%, #0903b3 115%);
 }
 
 .cancel {
@@ -74,6 +74,11 @@ body {
 
 .button:first {
     margin-left: 0px;
+}
+
+.button:hover{
+    background-color: white;
+    color: transparent;
 }
 
 .profile-card {

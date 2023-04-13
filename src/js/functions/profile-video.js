@@ -35,6 +35,67 @@ fetch("/src/js/functions/users.json")
                     postContainer.appendChild(div);
 
 
+                    postContainer.appendChild(div);
+
+                    const friend = div.querySelector("button");
+                    friend.addEventListener('click', function () {
+                        if (this.classList.contains('friend')) {
+                            this.classList.remove('friend');
+                            this.textContent = "Add+";
+                            post.friend = false;
+                        }
+                        else {
+                            this.classList.add('friend');
+                            post.friend = true; // update the post.friend property
+                            this.textContent = "Friend"; // update the text on the button
+                        }
+                    });
+
+                    const heartIcon = div.querySelector('.fa-heart');
+                    heartIcon.addEventListener('click', function () {
+                        const likesCount = div.querySelector('span'); // select the span element
+                        const currentLikes = post.likes[post.videoSources.indexOf(videoSource)];
+                        if (this.classList.contains('blue-heart')) {
+                            post.likes[post.videoSources.indexOf(videoSource)] = parseInt(currentLikes) - 1;
+                            likesCount.textContent = post.likes[post.videoSources.indexOf(videoSource)];
+                            this.classList.remove('blue-heart');
+                        } else {
+                            post.likes[post.videoSources.indexOf(videoSource)] = parseInt(currentLikes) + 1;
+                            likesCount.textContent = post.likes[post.videoSources.indexOf(videoSource)];
+                            this.classList.add('blue-heart');
+                        }
+                    });
+
+                    const shareIcon = div.querySelector('.fa-share');
+                    shareIcon.addEventListener('click', function () {
+                        const url = window.location.href;
+                        navigator.clipboard.writeText(url).then(function () {
+                            // Display a message to the user
+                            alert('Link copied to clipboard!');
+
+                            // Change the share icon color to red
+                            shareIcon.style.color = 'var(--blue)';
+                        }, function () {
+                            alert('Unable to copy link to clipboard');
+                        });
+                    });
+
+                    const comments = div.querySelector('.fa-comment-dots');
+                    comments.addEventListener('click', function () {
+                        document.querySelector('#commentSection').removeAttribute('hidden');
+                    });
+
+                    const user = div.querySelector('.user div');
+                    const username = user.querySelector('.user h6');
+                    username.addEventListener('click', () => {
+                        window.location.href = `/public/UserProfile.html?username=${post.userName}`;
+                    });
+
+                    const gameName = user.querySelector('.user p');
+                    gameName.addEventListener('click', () => {
+                        window.location.href = `/public/Game-Video.html?gameName=${post.game[post.videoSources.indexOf(videoSource)]}`;
+                    });
+
                     const video = div.querySelector('.video-style');
                     let isPlaying = false;
 

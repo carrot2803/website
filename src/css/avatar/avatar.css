@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('variables.css');
 
 * {
 	margin: 0;
@@ -8,7 +9,7 @@
 }
 
 body {
-	background: linear-gradient(135deg, #c669e2 0%, #0903b3 115%);
+	background: linear-gradient(135deg, var(--search-hover) 0%, var(--login-btn) 115%);
 }
 
 .main {
@@ -16,11 +17,10 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: transparent;
 }
 
 .profile-card {
-	color: white;
+	color: var(--white);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -28,8 +28,8 @@ body {
 	width: 100%;
 	border-radius: 25px;
 	padding: 30px;
-	border: 1px solid #ffffff40;
-	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+	border: 1px solid var(--search-hover);
+	box-shadow: 0 5px 20px var(--shadow);
 }
 
 .image {
@@ -43,7 +43,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	border-radius: 50%;
-	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 5px 20px var(--shadow);
 }
 
 .data {
@@ -80,19 +80,27 @@ span {
 }
 
 .buttons .btn {
-	color: #fff;
+	color: var(--white);
 	text-decoration: none;
 	margin: 0 20px;
 	padding: 8px 25px;
 	border-radius: 25px;
 	font-size: 18px;
 	white-space: nowrap;
-	background: transparent
+	background: var(--btn);
+	border: 1px solid var(--outline);
+}
+
+#cancel-btn{
+	background-color: transparent;
+
 }
 
 .buttons .btn:hover {
 	box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.4);
 	cursor: pointer;
+	color: var(--btn);
+	background: var(--white);
 }
 
 .container {
@@ -128,7 +136,7 @@ span {
 	text-align: center;
 	line-height: 50px;
 	color: #fff;
-	background-color: #007bff;
+	background-color: var(--blue);
 	border-radius: 5px;
 	cursor: pointer;
 }
