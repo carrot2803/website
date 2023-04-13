@@ -113,8 +113,8 @@ main {
 	margin-top: 1rem;
 	color: var(--blue);
 	border: 1px solid rgb(91, 111, 226);
-	background-color: var(--text-col);
-	color: var(--login-btn);
+	background-color: var(--white);
+	color: var(--message-back);
 	font-size: 0.9rem;
 	font-weight: 600;
 	cursor: pointer;
@@ -124,13 +124,13 @@ main {
 }
 
 .post-info>button:hover{
-	background-color: var(--blue);
-	color: var(--white);	
+	color: var(--white);
+	background-color: var(--message-back);
 }
 
 .post-info > .friend{
-	background-color: var(--blue);
-	color: var(--userName);	
+	color: var(--white);
+	background-color: var(--message-back);
 }
 
 .post-content {

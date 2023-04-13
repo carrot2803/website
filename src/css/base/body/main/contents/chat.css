@@ -18,8 +18,8 @@
 .chat-header {
 	align-content: center;
 	justify-content: center;
-	background-color: var(--blue);
-	color: var(--textcol);
+	background-color: var(--message-back);
+	color: var(--white);
 	height: 4rem;
 	padding: 10px;
 	text-align: center;
@@ -28,11 +28,11 @@
 .chat-header button {
 	margin-left: 15rem;
 	height: 2rem;
-	color: var(--blue);
-	background-color: var(--textcol);
+	color: var(--btn-hover);
+	background-color: var(--background);
 	border-width: 5px;
 	border-style: solid;
-	border-color: var(--textcol);
+	border-color: var(--background);
 	border-radius: 50%;
 }
 
@@ -86,8 +86,8 @@
 
 .messages--sent .message {
 	float: right;
-	background-color: var(--blue);
-	color: var(--textcol);
+	background-color: var(--message-back);
+	color: var(--white);
 	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
 }

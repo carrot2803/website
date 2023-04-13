@@ -25,3 +25,14 @@ document.querySelectorAll("video").forEach(video => {
 document.querySelector(".logo").addEventListener('click', () => {
 	window.location.href = '/public/Homepage.html';
 });
+
+$(document).ready(function () { // theme switch
+    var themes = ["light", "dark", "solar", "dark-solar"];
+    var themeIndex = 1;
+
+    $(".menu li:nth-child(2)").on("click", function () {
+        $("body").removeClass();
+        $("body").addClass(themes[themeIndex]);
+        themeIndex = (themeIndex + 1) % themes.length;
+    });
+});

@@ -89,7 +89,6 @@
 
 .upload-btn:hover,
 .drop-down:hover {
-	background-color: var(--shadow);
 	cursor: pointer;
 }
 
@@ -101,13 +100,20 @@
 
 .drop-down:hover {
 	cursor: pointer;
+	background-color: var(--shadow);
 }
 
 .drop-down ul {
 	padding: 0;
 	margin-top: 0;
 	margin-bottom: 0;
+
 }
+
+.drop-down ul li:hover {
+	background-color: var(--search-background);
+}
+
 
 .upload-btn {
 	color: var(--textcol);

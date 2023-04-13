@@ -5,45 +5,98 @@
 }
 
 :root {
-    --white: #fff;
-	--blue: #0766c6;	
+	--white: #fff;
+	--blue: #0766c6;
 	--hover-blue: #0554a3;
+	--wcol: #f5f5f5;
+	--bg-color: #F3EFE8;
+	--primary-color: #FFB900;
+	--secondary-color: #FF6F61;
+	--text-color: #1C1C1C;
+	--accent-color: #FFB900;
+	--bg-color2: #1F2937;
+	--primary-color2: #38BDF8;
+	--secondary-color2: #9CA3AF;
+	--text-color2: #D1D5DB;
+	--accent-color2: #38BDF8;
 }
 
 .light {
-    --background: var(--white);
+	--background: var(--white);
 	--shadow: rgba(0, 0, 0, 0.1);
 	--btn: var(--blue);
 	--btn-hover: var(--hover-blue);
 	--outline: #ccc;
 	--textcol: #000;
-	--search-background:  #e8e8e8; 
-	--search-hover: #dcdcdc; 
-	--hover: rgb(245, 245, 245);
+	--search-background: #e8e8e8;
+	--search-hover: #dcdcdc;
+	--hover: var(--white);
 	--contactName: #333;
 	--userName: rgb(80, 80, 80);
 	--tags: rgba(22, 24, 35, 0.75);
 	--left-btn: rgb(22, 24, 35);
 	--icon-hover: rgb(230, 230, 230);
 	--login-btn: var(--blue);
+	--message-back: var(--blue);
 }
 
 .dark {
-    --background: #121212;
+	--background: #121212;
 	/* --background: #2a2e35; */
-    --shadow: rgba(255, 255, 255, 0.1);
-    --btn: var(--blue);
-    --btn-hover: var(--hover-blue);
-    --outline: var(--white);
-    --textcol: #f5f5f5;
-    /* --search-background: #121212; */
+	--shadow: rgba(255, 255, 255, 0.1);
+	--btn: var(--blue);
+	--btn-hover: var(--hover-blue);
+	--outline: var(--white);
+	--textcol: var(--wcol);
+	/* --search-background: #121212; */
 	--search-background: #2a2e35;
-    --search-hover: #616161;
-    --hover: #2a2e50;
-    --contactName: #f5f5f5;
-    --userName: var(--white);
-    --tags: rgba(255, 255, 255, 0.75);
-    --left-btn: #f5f5f5;
-    --icon-hover: white;
+	--search-hover: #616161;
+	--hover: #2a2e50;
+	--contactName: var(--wcol);
+	--userName: var(--white);
+	--tags: rgba(255, 255, 255, 0.75);
+	--left-btn: var(--wcol);
+	--icon-hover: var(--white);
 	--login-btn: var(--white);
+	--message-back: var(--blue);
 }
+
+
+.solar {
+	--background: var(--bg-color);
+	--shadow: rgba(0, 0, 0, 0.1);
+	--btn: var(--primary-color);
+	--btn-hover: var(--secondary-color);
+	--outline: #ccc;
+	--textcol: var(--text-color);
+	--search-background: #e8e8e8;
+	--search-hover: #dcdcdc;
+	--hover: rgb(245, 245, 245);
+	--contactName: var(--text-color);
+	--userName: var(--text-color);
+	--tags: rgba(22, 24, 35, 0.75);
+	--left-btn: var(--accent-color);
+	--icon-hover: rgb(230, 230, 230);
+	--login-btn: var(--primary-color);
+	--message-back: var(--accent-color);
+  }
+
+  .dark-solar {
+	--background: var(--bg-color2);
+	--shadow: rgba(0, 0, 0, 0.1);
+	--btn: var(--primary-color2);
+	--btn-hover: var(--secondary-color2);
+	--outline: #ccc;
+	--textcol: var(--text-color2);
+	--search-background: var(--bg-color2);
+	--search-hover: #9CA3AF;
+	--hover: rgb(52, 63, 78);
+	--contactName: var(--text-color2);
+	--userName: var(--text-color2);
+	--tags: rgba(255, 255, 255, 0.75);
+	--left-btn: var(--accent-color2);
+	--icon-hover: rgb(230, 230, 230);
+	--login-btn: var(--primary-color2);
+}
+
+  
