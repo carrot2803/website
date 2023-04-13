@@ -53,10 +53,10 @@ function drawVideos(avatarImage, videoURL) {
 
     const heartIcon = div.querySelector('.fa-heart');
     heartIcon.addEventListener('click', function () {
-        if (this.classList.contains('red-heart')) {
-            this.classList.remove('red-heart');
+        if (this.classList.contains('blue-heart')) {
+            this.classList.remove('blue-heart');
         } else {
-            this.classList.add('red-heart');
+            this.classList.add('blue-heart');
         }
     });
 
@@ -67,7 +67,7 @@ function drawVideos(avatarImage, videoURL) {
             // Display a message to the user
             alert('Link copied to clipboard!');
 
-            shareIcon.style.color = 'red';
+            shareIcon.style.color = 'var(--blue)';
         }, function () {
             alert('Unable to copy link to clipboard');
         });

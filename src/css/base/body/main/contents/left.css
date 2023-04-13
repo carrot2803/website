@@ -3,6 +3,7 @@
 	height: 90vh;
 	overflow-y: hidden;
 	overflow-x: hidden;
+	background-color: var(--background);
 }
 
 .left:hover {
@@ -23,6 +24,7 @@
 .btns>a {
 	text-decoration: none;
 	font-size: 1.2rem;
+	background: none;
 	color: var(--left-btn);
 	font-weight: 600;
 	padding-top: 1rem;
@@ -35,11 +37,6 @@
 	background-color: var(--hover);
 }
 
-.btns>a:first-child>i,
-.btns>a:first-child>span {
-	background-color: var(--hover);
-}
-
 .btns>a>i {
 	margin-right: 1rem;
 }
@@ -49,9 +46,9 @@
 	flex-direction: column;
 	margin-top: 0.5rem;
 	border-bottom: 1px solid var(--outline);
+	color: var(--textcol);
 	padding-bottom: 1rem;
 	margin-left: 2rem;
-	/* margin-right: 1rem; */
 	width: 70%;
 
 }
@@ -59,23 +56,23 @@
 .login>button {
 	margin-top: 1rem;
 	background-color: transparent;
-	border: 1px solid var(--blue);
+	border: 1px solid var(--textcol);
 	font-size: 1.2rem;
 	font-weight: 600;
-	color: var(--blue);
+	color: var(--login-btn);
 	cursor: pointer;
 	border-radius: 5px;
 	height: 3rem;
 	width: 70%;
 }
 
-.login>p{
+.login>p {
 	margin-bottom: 0;
 }
 
 .login>button:hover {
 	background-color: var(--hover-blue);
-	color: var(--hover);
+	color: var(--login-btn);
 }
 
 .accounts {
@@ -104,6 +101,7 @@
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 	padding-left: 1rem;
+	color: var(--userName);
 }
 
 .user:hover {
@@ -136,9 +134,9 @@
 }
 
 .tags>p {
-	margin-top: 1rem;
+	margin-top: 0;
 	color: var(--tags);
-	font-size: 0.8rem;
+	font-size: 1.75rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
 }
@@ -200,6 +198,7 @@
 	margin-top: 1rem;
 	color: var(--userName);
 }
+
 .avatar-side {
 	height: auto;
 	width: 3rem;

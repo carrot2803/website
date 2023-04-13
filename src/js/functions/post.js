@@ -62,14 +62,14 @@ fetch("/src/js/functions/users.json")
                         heartIcon.addEventListener('click', function () {
                             const likesCount = div.querySelector('span'); // select the span element
                             const currentLikes = post.likes[post.videoSources.indexOf(videoSource)];
-                            if (this.classList.contains('red-heart')) {
+                            if (this.classList.contains('blue-heart')) {
                                 post.likes[post.videoSources.indexOf(videoSource)] = parseInt(currentLikes) - 1;
                                 likesCount.textContent = post.likes[post.videoSources.indexOf(videoSource)];
-                                this.classList.remove('red-heart');
+                                this.classList.remove('blue-heart');
                             } else {
                                 post.likes[post.videoSources.indexOf(videoSource)] = parseInt(currentLikes) + 1;
                                 likesCount.textContent = post.likes[post.videoSources.indexOf(videoSource)];
-                                this.classList.add('red-heart');
+                                this.classList.add('blue-heart');
                             }
                         });
 
@@ -81,7 +81,7 @@ fetch("/src/js/functions/users.json")
                                 alert('Link copied to clipboard!');
 
                                 // Change the share icon color to red
-                                shareIcon.style.color = 'red';
+                                shareIcon.style.color = 'var(--blue)';
                             }, function () {
                                 alert('Unable to copy link to clipboard');
                             });

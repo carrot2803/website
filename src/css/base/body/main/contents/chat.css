@@ -19,7 +19,7 @@
 	align-content: center;
 	justify-content: center;
 	background-color: var(--blue);
-	color: var(--hover);
+	color: var(--textcol);
 	height: 4rem;
 	padding: 10px;
 	text-align: center;
@@ -29,10 +29,10 @@
 	margin-left: 15rem;
 	height: 2rem;
 	color: var(--blue);
-	background-color: var(--hover);
+	background-color: var(--textcol);
 	border-width: 5px;
 	border-style: solid;
-	border-color: var(--hover);
+	border-color: var(--textcol);
 	border-radius: 50%;
 }
 
@@ -87,7 +87,7 @@
 .messages--sent .message {
 	float: right;
 	background-color: var(--blue);
-	color: var(--hover);
+	color: var(--textcol);
 	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
 }
@@ -151,6 +151,8 @@
 	position: relative;
 	vertical-align: middle;
 	font-size: 14px;
+	background-color: var(--background);
+	color: var(--textcol);
 }
 
 .text-bar__thumb:hover {

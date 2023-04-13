@@ -3,17 +3,20 @@
 }
 
 .navbarHead {
+	background-color: var(--background);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	height: 4rem;
 	width: 100%;
-	border-bottom: 1px solid var(--outline);
+	border-bottom: 0.5px solid var(--outline);
 	padding-left: 0rem;
 }
 
 .logo {
-	width: 3.0rem;
+	background-color: transparent;
+	height: 3rem;
+	width: auto;
 	margin: 0 15rem 0 3rem;
 }
 
@@ -26,11 +29,12 @@
 	margin: 0 15rem 0 4rem;
 }
 
-.search-input {	
+.search-input {
 	outline: none;
 	background: var(--search-background);
 	border-radius: 50px 0 0 50px;
-	border: none;
+	border: 1px solid var(--outline);
+	color: var(--textcol);
 	height: 3rem;
 	width: 17rem;
 	text-indent: 20px;
@@ -80,6 +84,7 @@
 .drop-down {
 	background-color: transparent;
 	border: none;
+	color: var(--textcol);
 }
 
 .upload-btn:hover,
@@ -98,7 +103,7 @@
 	cursor: pointer;
 }
 
-.drop-down ul{
+.drop-down ul {
 	padding: 0;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -151,17 +156,21 @@
 	position: absolute;
 	top: 200%;
 	right: 0;
-	background: var(--white);
+	background-color: var(--background);
 	width: 14rem;
 	border-radius: 5px;
 	box-shadow: 5px 3px 5px 5px var(--shadow);
 }
 
+.menu ul li a {
+	color: var(--textcol);
+}
+
 .search-results {
 	display: none;
-	background-color: #e8e8e8;
+	background-color: var(--search-background);
 	border-radius: 16px;
-	margin-top: 4rem;
+	margin-top: 3.4rem;
 	margin-left: 0.4rem;
 	position: absolute;
 	width: 300px;
@@ -182,5 +191,5 @@
 }
 
 .search-results a:hover {
-	background-color:  var(--search-hover);
+	background-color: var(--search-hover);
 }

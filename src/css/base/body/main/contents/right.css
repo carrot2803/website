@@ -36,6 +36,7 @@ li>a>i {
 main {
 	display: flex;
 	width: 100vw;
+	background-color: var(--background);
 }
 
 ::-webkit-scrollbar {
@@ -63,13 +64,14 @@ main {
 }
 
 #commentSection {
-	background-color: var(--hover);
+	background-color: var(--background);
 	position: absolute;
 	top: 60%;
 	left: 43.9%;
 	transform: translate(-50%, -50%);
 	z-index: 1;
 	font-size: 0.75rem;
+	color: var(--textcol);
 }
 
 .post-info {
@@ -111,7 +113,8 @@ main {
 	margin-top: 1rem;
 	color: var(--blue);
 	border: 1px solid rgb(91, 111, 226);
-	background-color: var(--background);
+	background-color: var(--text-col);
+	color: var(--login-btn);
 	font-size: 0.9rem;
 	font-weight: 600;
 	cursor: pointer;
@@ -122,12 +125,12 @@ main {
 
 .post-info>button:hover{
 	background-color: var(--blue);
-	color: var(--background);
+	color: var(--white);	
 }
 
 .post-info > .friend{
 	background-color: var(--blue);
-	color: var(--hover);
+	color: var(--userName);	
 }
 
 .post-content {
@@ -162,14 +165,14 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--hover);
+	background-color: rgb(230, 230, 230);
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
 }
 
 .video-icons>a>i:hover {
-	background-color: var(--icon-hover);
+	background-color: var(--hover-blue);
 	overflow: hidden;
 }
 
@@ -192,6 +195,6 @@ main {
 	/* use object-fit to fill the container while preserving the aspect ratio */
 }
 
-.red-heart {
-	color: red;
+.blue-heart {
+	color: var(--blue);
 }
