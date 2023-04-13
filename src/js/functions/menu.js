@@ -36,3 +36,17 @@ $(document).ready(function () { // theme switch
         themeIndex = (themeIndex + 1) % themes.length;
     });
 });
+
+$(document).ready(function () {
+    $(".menu li:nth-child(3)").on("click", function () {
+        for (let key in localStorage) {
+            if (key !== "videos") {
+                localStorage.removeItem(key); // Remove everything except for "videos"
+            }
+        }
+        console.log("Logout initiated");
+    });
+});
+
+
+

@@ -121,7 +121,7 @@
 	font-weight: 600;
 }
 
-.login-btn {
+#login-btn {
 	height: 2.3rem;
 	width: 6rem;
 	color: var(--white);
@@ -132,10 +132,11 @@
 	font-weight: 600;
 }
 
-.login-btn:hover {
+#login-btn:hover {
 	background-color: var(--hover-blue);
 	cursor: pointer;
 }
+
 
 .nav-right #login-btn.hidden {
 	display: none;

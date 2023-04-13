@@ -71,5 +71,3 @@ continueButton.addEventListener("click", function (event) {
 		alert('Please upload a profile picture');
 	}
 });
-
-
