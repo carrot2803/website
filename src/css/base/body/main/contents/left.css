@@ -206,6 +206,10 @@
 	border-radius: 50%;
 }
 
+.avatar-side:hover {
+	cursor: pointer;
+}
+
 .avatar-side img {
 	width: 100px;
 	height: 100px;

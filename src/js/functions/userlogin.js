@@ -8,7 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
         avatarImage.setAttribute('src', localStorage.getItem('avatar'));
         avatarImage.classList.add('avatar-container');
         loginButton.classList.add('hidden');
-    } 
+
+        avatarImage.onclick = function () {
+            window.location.href = 'https://www.youtube.com/';
+        }
+    }
 });
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -23,8 +27,16 @@ document.addEventListener('DOMContentLoaded', () => {
         avatarImage.setAttribute('src', localStorage.getItem('avatar'));
         avatarImage.classList.add('avatar-side');
 
+
+        avatarImage.onclick = function () {
+            window.location.href = 'https://www.youtube.com/';
+        }
+
+
         loginContainer.removeChild(loginContainer.firstChild); // remove old element
         loginContainer.removeChild(loginContainer.firstChild); // remove the <p> element
         loginContainer.replaceChild(avatarImage, loginButton); // replace the login button with the avatar image
-    } 
+    }
 });
+
+

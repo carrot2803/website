@@ -87,6 +87,7 @@ fetch('/src/js/functions/users.json')
         });
     });
 
+
 // Update event listeners for searchInput to keep search results displayed
 searchInput.addEventListener('focus', function () {
     searchResults.style.display = 'block';
@@ -95,7 +96,9 @@ searchInput.addEventListener('focus', function () {
 
 searchInput.addEventListener('blur', function () {
     keepSearchResultsDisplayed = false;
-    if (!keepSearchResultsDisplayed) {
-        searchResults.style.display = 'none';
-    }
+    setTimeout(function () {
+        if (!keepSearchResultsDisplayed) {
+            searchResults.style.display = 'none';
+        }
+    }, 500);
 });

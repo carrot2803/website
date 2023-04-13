@@ -54,7 +54,6 @@ fetch("/src/js/functions/users.json")
                                 this.classList.add('friend');
                                 post.friend = true; // update the post.friend property
                                 this.textContent = "Friend"; // update the text on the button
-                                console.log("add friend");
                             }
                         });
 

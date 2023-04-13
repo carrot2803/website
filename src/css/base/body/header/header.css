@@ -150,6 +150,10 @@
 	border-radius: 50%;
 }
 
+.avatar-container{
+	cursor: pointer;
+}
+
 .avatar-container img {
 	width: 100px;
 	height: 100px;
