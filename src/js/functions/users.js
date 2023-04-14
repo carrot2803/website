@@ -17,7 +17,7 @@ var data = [
             },
             {
                 "index": "3",
-                "src": "../assets/video11.mp4"
+                "src": "../../assets/video11.mp4"
             }
         ],
         "likes": [
@@ -187,11 +187,11 @@ var data = [
             },
             {
                 "index": "3",
-                "src": "../assets/video32.mp4"
+                "src": "../../assets/video32.mp4"
             },
             {
                 "index": "4",
-                "src": "../assets/video34.mp4"
+                "src": "../../assets/video34.mp4"
             }
         ],
         "likes": [
@@ -230,15 +230,15 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../assets/video34.mp4"
+                "src": "../../assets/video34.mp4"
             },
             {
                 "index": "3",
-                "src": "../assets/video36.mp4"
+                "src": "../../assets/video36.mp4"
             },
             {
                 "index": "4",
-                "src": "../assets/video31.mp4"
+                "src": "../../assets/video31.mp4"
             }
         ],
         "likes": [
@@ -274,23 +274,23 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../assets/video38.mp4"
+                "src": "../../assets/video38.mp4"
             },
             {
                 "index": "2",
-                "src": "../assets/video37.mp4"
+                "src": "../../assets/video37.mp4"
             },
             {
                 "index": "3",
-                "src": "../assets/video39.mp4"
+                "src": "../../assets/video39.mp4"
             },
             {
                 "index": "4",
-                "src": "../assets/video40.mp4"
+                "src": "../../assets/video40.mp4"
             },
             {
                 "index": "5",
-                "src": "../assets/video41.mp4"
+                "src": "../../assets/video41.mp4"
             }
         ],
         "likes": [
@@ -335,7 +335,7 @@ var data = [
             },
             {
                 "index": "3",
-                "src": "../assets/video26.mp4"
+                "src": "../../assets/video26.mp4"
             }
         ],
         "likes": [
@@ -374,7 +374,7 @@ var data = [
             },
             {
                 "index": "3",
-                "src": "../assets/video27.mp4"
+                "src": "../../../../assets/video27.mp4"
             }
         ],
         "likes": [
@@ -409,7 +409,7 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../assets/video35.mp4"
+                "src": "../../assets/video35.mp4"
             },
             {
                 "index": "3",
@@ -445,19 +445,19 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../assets/video42.mp4"
+                "src": "../../assets/video42.mp4"
             },
             {
                 "index": "2",
-                "src": "../assets/video43.mp4"
+                "src": "../../assets/video43.mp4"
             },
             {
                 "index": "3",
-                "src": "../assets/video44.mp4"
+                "src": "../../assets/video44.mp4"
             },
             {
                 "index": "4",
-                "src": "../assets/video45.mp4"
+                "src": "../../assets/video45.mp4"
             }
         ],
         "likes": [
@@ -491,15 +491,15 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../assets/video46.mp4"
+                "src": "../../assets/video46.mp4"
             },
             {
                 "index": "2",
-                "src": "../assets/video47.mp4"
+                "src": "../../assets/video47.mp4"
             },
             {
                 "index": "3",
-                "src": "../assets/video48.mp4"
+                "src": "../../assets/video48.mp4"
             }
         ],
         "likes": [
@@ -558,15 +558,15 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../assets/video39.mp4"
+                "src": "../../assets/video39.mp4"
             },
             {
                 "index": "3",
-                "src": "../assets/video40.mp4"
+                "src": "../../assets/video40.mp4"
             },
             {
                 "index": "4",
-                "src": "../assets/video41.mp4"
+                "src": "../../assets/video41.mp4"
             }
         ],
         "likes": [
@@ -604,11 +604,11 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../assets/video49.mp4"
+                "src": "../../assets/video49.mp4"
             },
             {
                 "index": "3",
-                "src": "../assets/video50.mp4"
+                "src": "../../assets/video50.mp4"
             }
         ],
         "likes": [
@@ -748,15 +748,15 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../assets/video26.mp4"
+                "src": "../../assets/video26.mp4"
             },
             {
                 "index": "2",
-                "src": "../assets/video50.mp4"
+                "src": "../../assets/video50.mp4"
             },
             {
                 "index": "3",
-                "src": "../assets/video30.mp4"
+                "src": "../../assets/video30.mp4"
             }
         ],
         "likes": [
@@ -793,19 +793,19 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../assets/video23.mp4"
+                "src": "../../assets/video23.mp4"
             },
             {
                 "index": "3",
-                "src": "../assets/video39.mp4"
+                "src": "../../assets/video39.mp4"
             },
             {
                 "index": "4",
-                "src": "../assets/video40.mp4"
+                "src": "../../assets/video40.mp4"
             },
             {
                 "index": "5",
-                "src": "../assets/video41.mp4"
+                "src": "../../assets/video41.mp4"
             }
         ],
         "likes": [
@@ -839,7 +839,7 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../assets/video28.mp4"
+                "src": "../../assets/video28.mp4"
             }
         ],
         "likes": [
@@ -862,7 +862,7 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../assets/video29.mp4"
+                "src": "../../assets/video29.mp4"
             }
         ],
         "likes": [
@@ -885,7 +885,7 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../assets/video30.mp4"
+                "src": "../../assets/video30.mp4"
             }
         ],
         "likes": [
