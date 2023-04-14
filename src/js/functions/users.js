@@ -17,7 +17,7 @@ var data = [
             },
             {
                 "index": "3",
-                "src": "../../assets/video11.mp4"
+                "src": "../assets/video11.mp4"
             }
         ],
         "likes": [
@@ -187,11 +187,11 @@ var data = [
             },
             {
                 "index": "3",
-                "src": "../../assets/video32.mp4"
+                "src": "https://drive.google.com/uc?id=1LFGaxLhVD4GyWjP50XKqIZwYgruBwVO4&export=download"
             },
             {
                 "index": "4",
-                "src": "../../assets/video34.mp4"
+                "src": "https://drive.google.com/uc?id=1n-RKvADGSC6U7dgdnmgovKFR-7o5MR9U&export=download"
             }
         ],
         "likes": [
@@ -230,15 +230,16 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../../assets/video34.mp4"
+                "src": "https://drive.google.com/uc?id=1n-RKvADGSC6U7dgdnmgovKFR-7o5MR9U&export=download"
             },
             {
                 "index": "3",
-                "src": "../../assets/video36.mp4"
+                "src": "https://drive.google.com/uc?id=1gPjBJeFw3ibZaoNZjrKC-DVtkgPQc_x9&export=download"
             },
             {
                 "index": "4",
-                "src": "../../assets/video31.mp4"
+                "src": " https://drive.google.com/uc?id=1CwHIbSmMug1NPHSyYsYz3sVBmqHxDMLJ&export=download"
+                
             }
         ],
         "likes": [
@@ -274,23 +275,23 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../../assets/video38.mp4"
+                "src": "https://drive.google.com/uc?id=1ZcgtBD6KC__ayyKq_YFXfJYY2AVO8sql&export=download"
             },
             {
                 "index": "2",
-                "src": "../../assets/video37.mp4"
+                "src": "https://drive.google.com/uc?id=1LVEPJBe42WYUz6C2cyw3ibbd8luYSEzQ&export=download"
             },
             {
                 "index": "3",
-                "src": "../../assets/video39.mp4"
+                "src": "https://drive.google.com/uc?id=16yjpJCDQ6pXJeWK1V55Y13aQTGGyZmrw&export=download"
             },
             {
                 "index": "4",
-                "src": "../../assets/video40.mp4"
+                "src": "https://drive.google.com/uc?id=1_nARR0QqoXTJKznwK1MMPzczfjSvgDBh&export=download"
             },
             {
                 "index": "5",
-                "src": "../../assets/video41.mp4"
+                "src": "https://drive.google.com/uc?id=1Oo3Gmq-pdolego5PkLEuxCjNs2Y3Z3lW&export=download"
             }
         ],
         "likes": [
@@ -335,7 +336,7 @@ var data = [
             },
             {
                 "index": "3",
-                "src": "../../assets/video26.mp4"
+                "src": "https://drive.google.com/uc?id=1M0kQMACDGBQZt1aWsGcOJN3WXriThihy&export=download"
             }
         ],
         "likes": [
@@ -374,7 +375,7 @@ var data = [
             },
             {
                 "index": "3",
-                "src": "../../../../assets/video27.mp4"
+                "src": "https://drive.google.com/uc?id=1bZfX7Ql3bW8X6j5BGlmVceN-q98ch2pQ&export=download"
             }
         ],
         "likes": [
@@ -409,7 +410,7 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../../assets/video35.mp4"
+                "src": "https://drive.google.com/uc?id=1cKmraebwROBh6JH0P5OXBZfQD33xWZ8N&export=download"
             },
             {
                 "index": "3",
@@ -445,19 +446,19 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../../assets/video42.mp4"
+                "src": "https://drive.google.com/uc?id=1XW4AoX29UeVXSrcUQY32xeWOQ5J3b6vQ&export=download"
             },
             {
                 "index": "2",
-                "src": "../../assets/video43.mp4"
+                "src": "https://drive.google.com/uc?id=1xMkJBhowtTwv6miHplWMAdgHz-06bDJ_&export=download"
             },
             {
                 "index": "3",
-                "src": "../../assets/video44.mp4"
+                "src": "https://drive.google.com/uc?id=1G7uYLJ0f628OOKfGx2H84UNo9IcA-oOH&export=download"
             },
             {
                 "index": "4",
-                "src": "../../assets/video45.mp4"
+                "src": "https://drive.google.com/uc?id=15kXCEVzTx0pjZBfGtsuD6UcGyC2BWab_&export=download"
             }
         ],
         "likes": [
@@ -491,15 +492,15 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../../assets/video46.mp4"
+                "src": "https://drive.google.com/uc?id=1xVigIujWwwtSWWCgY3UdiJbpNzxBMdEA&export=download"
             },
             {
                 "index": "2",
-                "src": "../../assets/video47.mp4"
+                "src": "https://drive.google.com/uc?id=1CFVdrZZDa4hmQTzW3k7GL1mkS5wDO7T0&export=download"
             },
             {
                 "index": "3",
-                "src": "../../assets/video48.mp4"
+                "src": "https://drive.google.com/uc?id=1O89Vcet4SilosjO_gz5vR4w419fX8_Xo&export=download"
             }
         ],
         "likes": [
@@ -558,15 +559,15 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../../assets/video39.mp4"
+                "src": "../assets/video39.mp4"
             },
             {
                 "index": "3",
-                "src": "../../assets/video40.mp4"
+                "src": "../assets/video40.mp4"
             },
             {
                 "index": "4",
-                "src": "../../assets/video41.mp4"
+                "src": "../assets/video41.mp4"
             }
         ],
         "likes": [
@@ -604,11 +605,11 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../../assets/video49.mp4"
+                "src": "https://drive.google.com/uc?id=1D-h8xmeAaA_7eorXgu7SGJcXxmFnewwN&export=download"
             },
             {
                 "index": "3",
-                "src": "../../assets/video50.mp4"
+                "src": "https://drive.google.com/uc?id=1XX9dJOJTpfwEQN2M71zZFcYWrAYjX-R4&export=download"
             }
         ],
         "likes": [
@@ -748,15 +749,15 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../../assets/video26.mp4"
+                "src": "https://drive.google.com/uc?id=1M0kQMACDGBQZt1aWsGcOJN3WXriThihy&export=download"
             },
             {
                 "index": "2",
-                "src": "../../assets/video50.mp4"
+                "src": "../assets/video50.mp4"
             },
             {
                 "index": "3",
-                "src": "../../assets/video30.mp4"
+                "src": "https://drive.google.com/uc?id=1IFBMBMtSzffKeix9-8HRQ3IeIjANeDqh&export=download"
             }
         ],
         "likes": [
@@ -793,19 +794,19 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../../assets/video23.mp4"
+                "src": "../assets/video23.mp4"
             },
             {
                 "index": "3",
-                "src": "../../assets/video39.mp4"
+                "src": "../assets/video39.mp4"
             },
             {
                 "index": "4",
-                "src": "../../assets/video40.mp4"
+                "src": "../assets/video40.mp4"
             },
             {
                 "index": "5",
-                "src": "../../assets/video41.mp4"
+                "src": "../assets/video41.mp4"
             }
         ],
         "likes": [
@@ -839,7 +840,7 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../../assets/video28.mp4"
+                "src": "https://drive.google.com/uc?id=1wFZg0KJ30kwJWumjmtwCwzl18yPEzMGF&export=download"
             }
         ],
         "likes": [
@@ -862,7 +863,7 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../../assets/video29.mp4"
+                "src": "https://drive.google.com/uc?id=1vO_4Ld54eEh6LEsV3-Rv17HSR9ZRQoa2&export=download"
             }
         ],
         "likes": [
@@ -885,7 +886,7 @@ var data = [
         "videoSources": [
             {
                 "index": "1",
-                "src": "../../assets/video30.mp4"
+                "src": "https://drive.google.com/uc?id=1IFBMBMtSzffKeix9-8HRQ3IeIjANeDqh&export=download"
             }
         ],
         "likes": [
