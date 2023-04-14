@@ -62,13 +62,13 @@ fetch('/src/js/functions/users.json')
                 }
                 if (i < matchingGames.length) {
                     const gameElement = document.createElement('div');
-                    gameElement.innerHTML = `<a href = "./pages/Game-Video.html?gameName=${matchingGames[i]}">${matchingGames[i]}</a>`;
+                    gameElement.innerHTML = `<a href = "/public/pages/Game-Video.html?gameName=${matchingGames[i]}">${matchingGames[i]}</a>`;
                     searchResults.appendChild(gameElement);
                     numResultsDisplayed++;
                 }
                 if (i < matchingUsers.length) {
                     const userElement = document.createElement('div');
-                    userElement.innerHTML = `<a href = "./pages/UserProfile.html?username=${matchingUsers[i].userName}">${matchingUsers[i].userName}</a>`;
+                    userElement.innerHTML = `<a href = "/public/pages/UserProfile.html?username=${matchingUsers[i].userName}">${matchingUsers[i].userName}</a>`;
                     searchResults.appendChild(userElement);
                     numResultsDisplayed++;
                 }

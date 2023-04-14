@@ -9,15 +9,15 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video1.mp4"
+                "src": "./public/assets/video1.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video10.mp4"
+                "src": "./public/assets/video10.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video11.mp4"
+                "src": "./public/assets/video11.mp4"
             }
         ],
         "likes": [
@@ -48,15 +48,15 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video2.mp4"
+                "src": "./public/assets/video2.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video12.mp4"
+                "src": "./public/assets/video12.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video13.mp4"
+                "src": "./public/assets/video13.mp4"
             }
         ],
         "likes": [
@@ -89,23 +89,23 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video3.mp4"
+                "src": "./public/assets/video3.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video22.mp4"
+                "src": "./public/assets/video22.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video15.mp4"
+                "src": "./public/assets/video15.mp4"
             },
             {
                 "index": "4",
-                "src": "./assets/video31.mp4"
+                "src": "./public/assets/video31.mp4"
             },
             {
                 "index": "5",
-                "src": "./assets/video24.mp4"
+                "src": "./public/assets/video24.mp4"
             }
         ],
         "likes": [
@@ -141,7 +141,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video4.mp4"
+                "src": "./public/assets/video4.mp4"
             }
         ],
         "likes": [
@@ -179,19 +179,19 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video5.mp4"
+                "src": "./public/assets/video5.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video14.mp4"
+                "src": "./public/assets/video14.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video32.mp4"
+                "src": "./public/assets/video32.mp4"
             },
             {
                 "index": "4",
-                "src": "./assets/video34.mp4"
+                "src": "./public/assets/video34.mp4"
             }
         ],
         "likes": [
@@ -226,19 +226,19 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video6.mp4"
+                "src": "./public/assets/video6.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video34.mp4"
+                "src": "./public/assets/video34.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video36.mp4"
+                "src": "./public/assets/video36.mp4"
             },
             {
                 "index": "4",
-                "src": "./assets/video31.mp4"
+                "src": "./public/assets/video31.mp4"
             }
         ],
         "likes": [
@@ -274,23 +274,23 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video38.mp4"
+                "src": "./public/assets/video38.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video37.mp4"
+                "src": "./public/assets/video37.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video39.mp4"
+                "src": "./public/assets/video39.mp4"
             },
             {
                 "index": "4",
-                "src": "./assets/video40.mp4"
+                "src": "./public/assets/video40.mp4"
             },
             {
                 "index": "5",
-                "src": "./assets/video41.mp4"
+                "src": "./public/assets/video41.mp4"
             }
         ],
         "likes": [
@@ -327,15 +327,15 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video8.mp4"
+                "src": "./public/assets/video8.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video20.mp4"
+                "src": "./public/assets/video20.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video26.mp4"
+                "src": "./public/assets/video26.mp4"
             }
         ],
         "likes": [
@@ -366,15 +366,15 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video9.mp4"
+                "src": "./public/assets/video9.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video21.mp4"
+                "src": "./public/assets/video21.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video27.mp4"
+                "src": "./public/assets/video27.mp4"
             }
         ],
         "likes": [
@@ -405,15 +405,15 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video9.mp4"
+                "src": "./public/assets/video9.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video35.mp4"
+                "src": "./public/assets/video35.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video10.mp4"
+                "src": "./public/assets/video10.mp4"
             }
         ],
         "likes": [
@@ -445,19 +445,19 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video42.mp4"
+                "src": "./public/assets/video42.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video43.mp4"
+                "src": "./public/assets/video43.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video44.mp4"
+                "src": "./public/assets/video44.mp4"
             },
             {
                 "index": "4",
-                "src": "./assets/video45.mp4"
+                "src": "./public/assets/video45.mp4"
             }
         ],
         "likes": [
@@ -491,15 +491,15 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video46.mp4"
+                "src": "./public/assets/video46.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video47.mp4"
+                "src": "./public/assets/video47.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video48.mp4"
+                "src": "./public/assets/video48.mp4"
             }
         ],
         "likes": [
@@ -528,7 +528,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video13.mp4"
+                "src": "./public/assets/video13.mp4"
             }
         ],
         "likes": [
@@ -554,19 +554,19 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video18.mp4"
+                "src": "./public/assets/video18.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video39.mp4"
+                "src": "./public/assets/video39.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video40.mp4"
+                "src": "./public/assets/video40.mp4"
             },
             {
                 "index": "4",
-                "src": "./assets/video41.mp4"
+                "src": "./public/assets/video41.mp4"
             }
         ],
         "likes": [
@@ -600,15 +600,15 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video19.mp4"
+                "src": "./public/assets/video19.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video49.mp4"
+                "src": "./public/assets/video49.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video50.mp4"
+                "src": "./public/assets/video50.mp4"
             }
         ],
         "likes": [
@@ -631,7 +631,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video20.mp4"
+                "src": "./public/assets/video20.mp4"
             }
         ],
         "likes": [
@@ -654,7 +654,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video21.mp4"
+                "src": "./public/assets/video21.mp4"
             }
         ],
         "likes": [
@@ -677,7 +677,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video23.mp4"
+                "src": "./public/assets/video23.mp4"
             }
         ],
         "likes": [
@@ -700,7 +700,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video24.mp4"
+                "src": "./public/assets/video24.mp4"
             }
         ],
         "likes": [
@@ -723,7 +723,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video25.mp4"
+                "src": "./public/assets/video25.mp4"
             }
         ],
         "likes": [
@@ -748,15 +748,15 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video26.mp4"
+                "src": "./public/assets/video26.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video50.mp4"
+                "src": "./public/assets/video50.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video30.mp4"
+                "src": "./public/assets/video30.mp4"
             }
         ],
         "likes": [
@@ -789,23 +789,23 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video25.mp4"
+                "src": "./public/assets/video25.mp4"
             },
             {
                 "index": "2",
-                "src": "./assets/video23.mp4"
+                "src": "./public/assets/video23.mp4"
             },
             {
                 "index": "3",
-                "src": "./assets/video39.mp4"
+                "src": "./public/assets/video39.mp4"
             },
             {
                 "index": "4",
-                "src": "./assets/video40.mp4"
+                "src": "./public/assets/video40.mp4"
             },
             {
                 "index": "5",
-                "src": "./assets/video41.mp4"
+                "src": "./public/assets/video41.mp4"
             }
         ],
         "likes": [
@@ -839,7 +839,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video28.mp4"
+                "src": "./public/assets/video28.mp4"
             }
         ],
         "likes": [
@@ -862,7 +862,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video29.mp4"
+                "src": "./public/assets/video29.mp4"
             }
         ],
         "likes": [
@@ -885,7 +885,7 @@
         "videoSources": [
             {
                 "index": "1",
-                "src": "./assets/video30.mp4"
+                "src": "./public/assets/video30.mp4"
             }
         ],
         "likes": [
