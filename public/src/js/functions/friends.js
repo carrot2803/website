@@ -1,4 +1,4 @@
-fetch("/src/js/functions/users.json")
+fetch("/public/src/js/functions/users.json")
     .then(response => response.json())
     .then(users => {
 
@@ -85,12 +85,12 @@ fetch("/src/js/functions/users.json")
                         const userD = div.querySelector('.user div');
                         const username = userD.querySelector('.user h6');
                         username.addEventListener('click', () => {
-                            window.location.href = `/public/UserProfile.html?username=${user.userName}`;
+                            window.location.href = `/public/pages/UserProfile.html?username=${user.userName}`;
                         });
 
                         const gameName = userD.querySelector('.user p');
                         gameName.addEventListener('click', () => {
-                            window.location.href = `/public/Game-Video.html?gameName=${user.game[user.videoSources.indexOf(videoSource)]}`;
+                            window.location.href = `/public/pages/Game-Video.html?gameName=${user.game[user.videoSources.indexOf(videoSource)]}`;
                         });
 
                         postContainer.appendChild(div);

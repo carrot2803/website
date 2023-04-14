@@ -1,5 +1,4 @@
-
-fetch("/src/js/functions/users.json")
+fetch("/public/src/js/functions/users.json")
     .then(response => response.json())
     .then(posts => {
         function shufflePosts(posts) {
@@ -116,12 +115,12 @@ fetch("/src/js/functions/users.json")
                         const user = div.querySelector('.user div');
                         const username = user.querySelector('.user h6');
                         username.addEventListener('click', () => {
-                            window.location.href = `/public/UserProfile.html?username=${post.userName}`;
+                            window.location.href = `/public/pages/UserProfile.html?username=${post.userName}`;
                         });
 
                         const gameName = user.querySelector('.user p');
                         gameName.addEventListener('click', () => {
-                            window.location.href = `/public/Game-Video.html?gameName=${post.game[post.videoSources.indexOf(videoSource)]}`;
+                            window.location.href = `/public/pages/Game-Video.html?gameName=${post.game[post.videoSources.indexOf(videoSource)]}`;
                         });
 
                         postContainer.appendChild(div);

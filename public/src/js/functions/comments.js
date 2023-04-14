@@ -1,6 +1,6 @@
 function generateComments() {
 
-fetch("/src/js/functions/users.json")
+fetch("/public/src/js/functions/users.json")
 	.then(response => response.json())
 	.then(posts => {
 		
