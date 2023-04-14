@@ -180,7 +180,10 @@
                     } else {
                         // Call the listFilesInFolder function with the specified folder ID
                         listFilesInFolder(FOLDER_ID)
-                            .then((fileUrls) => console.log(fileUrls))
+                            .then((fileUrls) =>{
+								
+								console.log(fileUrls)
+							})
                             .catch((error) => console.error(error));
                     }
                 });
