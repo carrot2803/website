@@ -31,7 +31,7 @@
             "50"
         ],
         "shares": [
-            "12.5K",
+            "12500",
             "2252",
             "20"
         ],
@@ -62,7 +62,7 @@
         "likes": [
             "2600",
             "100",
-            "1.2k"
+            "1200"
         ],
         "comments": [
             "120",
@@ -294,11 +294,11 @@
             }
         ],
         "likes": [
-            "26K",
-            "16.1K",
-            "19.9K",
+            "2600",
+            "1619",
+            "1990",
             "440",
-            "1.1M"
+            "1200"
         ],
         "comments": [
             "42",
@@ -532,13 +532,13 @@
             }
         ],
         "likes": [
-            "12.2K"
+            "1220"
         ],
         "comments": [
             "103"
         ],
         "shares": [
-            "4.4K"
+            "4.4"
         ],
         "avatar": "https://i.seadn.io/gae/D8sIKZF-VLqTEXlG5OU0zFkABoG6HdE64aPsk8Clo4nehcLLjq68ZNbtfAGTnFaaYxaWDELUSptq3PHQirWgPQjgifk4CZgvdQHNoA?auto=format&w=1000",
         "friend": "False"
@@ -549,7 +549,7 @@
             "Elden Ring",
             "Genshin Impact",
             "Resident Evil 4",
-            "Resident Evil 4"   
+            "Resident Evil 4" 
         ],
         "videoSources": [
             {

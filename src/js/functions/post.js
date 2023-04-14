@@ -13,6 +13,8 @@ fetch("/src/js/functions/users.json")
 
         const postContainer = document.getElementById("post-container");
         const shuffledPosts = shufflePosts(posts);
+        const friendList = JSON.parse(localStorage.getItem('friendList')) || [];
+        const friends = [];
 
         for (let i = 0; i < 5; i++) {
             shuffledPosts.forEach(post => {
@@ -20,6 +22,7 @@ fetch("/src/js/functions/users.json")
                     if (videoSource.index == i) {
                         const div = document.createElement("div");
                         div.className = "post";
+                        const buttonText = friends.includes(post.name) ? "Friend" : "Add+";
                         div.innerHTML = `
 						<div class="post-info">
 						<div class="user">
@@ -29,7 +32,7 @@ fetch("/src/js/functions/users.json")
                                 <p>${post.game[post.videoSources.indexOf(videoSource)]}</p>
 							</div>
 						</div>
-						<button>${post.friend ? "Add+" : "Friend"}</button>
+						<button>${buttonText}</button>
 						</div>
 						<div class="post-content">
 						<video class="video-style" controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
@@ -50,12 +53,30 @@ fetch("/src/js/functions/users.json")
                                 this.classList.remove('friend');
                                 this.textContent = "Add+";
                                 post.friend = false;
-                            }
-                            else {
+                                // remove the user from the friendList array
+                                const index = friendList.indexOf(post.username);
+                                if (index > -1) {
+                                    friendList.splice(index, 1);
+                                }
+                                // remove the user from the friends array
+                                const friendIndex = friends.indexOf(post.name);
+                                if (friendIndex > -1) {
+                                    friends.splice(friendIndex, 1);
+                                }
+                            } else {
                                 this.classList.add('friend');
-                                post.friend = true; // update the post.friend property
-                                this.textContent = "Friend"; // update the text on the button
+                                post.friend = true;
+                                this.textContent = "Friend";
+                                // add the user to the friendList array
+                                if (!friendList.includes(post.username)) {
+                                    friendList.push(post.username);
+                                }
+                                // add the user to the friends array
+                                if (!friends.includes(post.name)) {
+                                    friends.push(post.name);
+                                }
                             }
+                            localStorage.setItem('friendList', JSON.stringify(friendList));
                         });
 
                         const heartIcon = div.querySelector('.fa-heart');
