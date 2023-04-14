@@ -9,7 +9,7 @@
 	<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="light">
 	<div class="container">
 		<div class="forms-container">
 			<div class="signin-signup">
@@ -112,10 +112,10 @@
 		  document.body.classList.add('dark');
 		else if(currentTheme === 'solar')
 		  document.body.classList.add('solar');
-		else if(currentTheme === 'light')
-			document.body.classList.add('light');
-		else
+		else if(currentTheme === 'dark-solar')
 			document.body.classList.add('dark-solar');
+		else
+			document.body.classList.add('light');
 		
 	  </script>
 	  

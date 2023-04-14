@@ -34,9 +34,6 @@ posts.forEach(post => {
                     `;
             postContainer.appendChild(div);
 
-
-            postContainer.appendChild(div);
-
             const friend = div.querySelector("button");
             friend.addEventListener('click', function () {
                 if (this.classList.contains('friend')) {
