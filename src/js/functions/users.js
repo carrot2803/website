@@ -17,7 +17,7 @@ var data = [
             },
             {
                 "index": "3",
-                "src": "../assets/video11.mp4"
+                "src": "https://drive.google.com/uc?id=15kXCEVzTx0pjZBfGtsuD6UcGyC2BWab_&export=download"
             }
         ],
         "likes": [
@@ -559,15 +559,15 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../assets/video39.mp4"
+                "src": "https://drive.google.com/uc?id=1pA4xJXJWC5-QQ6UB16YOnGPytUhWncHt&export=download"
             },
             {
                 "index": "3",
-                "src": "../assets/video40.mp4"
+                "src": "https://drive.google.com/uc?id=1_nARR0QqoXTJKznwK1MMPzczfjSvgDBh&export=download"
             },
             {
                 "index": "4",
-                "src": "../assets/video41.mp4"
+                "src": "https://drive.google.com/uc?id=1C6irTRTExeZnkT1E5XrXNGlSxlbwTyZq&export=download"
             }
         ],
         "likes": [
@@ -753,7 +753,7 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../assets/video50.mp4"
+                "src": "https://drive.google.com/uc?id=1Cqm1gpKML_w1M-IE8vgY0irKmRo6jdMl&export=download"
             },
             {
                 "index": "3",
@@ -794,19 +794,19 @@ var data = [
             },
             {
                 "index": "2",
-                "src": "../assets/video23.mp4"
+                "src": "https://drive.google.com/uc?id=1Cqm1gpKML_w1M-IE8vgY0irKmRo6jdMl&export=download"
             },
             {
                 "index": "3",
-                "src": "../assets/video39.mp4"
+                "src": "https://drive.google.com/uc?id=1xVigIujWwwtSWWCgY3UdiJbpNzxBMdEA&export=download"
             },
             {
                 "index": "4",
-                "src": "../assets/video40.mp4"
+                "src": "https://drive.google.com/uc?id=1UIBylsii680aoIutXpJltzLP5z7l3G-U&export=download"
             },
             {
                 "index": "5",
-                "src": "../assets/video41.mp4"
+                "src": "https://drive.google.com/uc?id=129OqsTkPwAI3gk0iAIig2LREu9N0xXK6&export=download"
             }
         ],
         "likes": [
