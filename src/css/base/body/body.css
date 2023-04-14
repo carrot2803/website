@@ -1,5 +1,5 @@
-@import url('/src/css/base/body/header/header.css');
-@import url('/src/css/base/body/main/main.css');
+@import url('header/header.css');
+@import url('main/main.css');
 
 body {
 	height: 100vw;
