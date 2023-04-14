@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>User Profile</title>
-	<link rel="stylesheet" href="/src/css/profile/profile.css">
+	<link rel="stylesheet" href="/website/src/css/profile/profile.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -16,7 +16,7 @@
 <script>
 	const params = new URLSearchParams(window.location.search);
 	const username = params.get('username');
-	fetch("/src/js/functions/users.json")
+	fetch("/website/src/js/functions/users.json")
 		.then(response => response.json())
 		.then(users => {
 			const user = users.find(user => user.userName === username);
@@ -41,11 +41,11 @@
 			const watch = profile.querySelector('.watch');
 
 			cancel.addEventListener("click", function (event) {
-				window.location.href = '/public/Homepage.html';
+				window.location.href = 'website/public/Homepage.html';
 			});
 
 			watch.addEventListener("click", function (event) {
-				window.location.href = `/public/Profile-Video.html?username=${user.userName}`;
+				window.location.href = `website/public/Profile-Video.html?username=${user.userName}`;
 			});
 		});
 
