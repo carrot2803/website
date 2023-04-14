@@ -42,7 +42,7 @@
 }
 
 
-.solar-dark{
+.dark-solar{
     ---background:  #1F2937;
     --title: var(--white);
     --input-field: var(--white);

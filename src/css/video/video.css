@@ -1,5 +1,5 @@
-@import url('/src/css/base/body/body.css');
-@import url('/src/css/base/misc/misc.css');
+@import url('../base/body/body.css');
+@import url('../base/misc/misc.css');
 
 .right {
     display: flex;
