@@ -23,7 +23,7 @@ document.querySelectorAll("video").forEach(video => {
 })
 
 document.querySelector(".logo").addEventListener('click', () => {
-	window.location.href = '/public/pages/Homepage.html';
+	window.location.href = './pages/Homepage.html';
 });
 
 $(document).ready(function () {
@@ -63,10 +63,10 @@ $(document).ready(function () {
 function checkAvatar() {
 	const avatar = localStorage.getItem("avatarSelected");
 	if (!avatar) {
-		window.location.replace("/public/pages/Login.html");
+		window.location.replace("./pages/Login.html");
 	}
 	else{
-		window.location.replace("/public/pages/Upload.html");
+		window.location.replace("./pages/Upload.html");
 	}
 }
 

@@ -61,7 +61,7 @@ continueButton.addEventListener("click", function (event) {
 			localStorage.setItem('avatar', dataURL);
 			localStorage.setItem('avatarSelected', 'user');
 
-			window.location.href = '/public/pages/Homepage.html';
+			window.location.href = './pages/Homepage.html';
 		};
 		image.src = URL.createObjectURL(selectedAvatar);
 	}

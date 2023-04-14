@@ -81,7 +81,7 @@ function drawVideos(avatarImage, videoURL) {
     const user = div.querySelector('.user div');
     const username = user.querySelector('.user h6');
     username.addEventListener('click', () => {
-        window.location.href = `/public/pages/Upload.html`;
+        window.location.href = `./pages/Upload.html`;
     });
 
     const video = div.querySelector('.video-style');

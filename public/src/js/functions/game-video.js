@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const gName = params.get('gameName');
 
-fetch("/public/src/js/functions/users.json")
+fetch("./src/js/functions/users.json")
     .then(response => response.json())
     .then(posts => {
         // Shuffle the posts array randomly
@@ -92,12 +92,12 @@ fetch("/public/src/js/functions/users.json")
                             const user = div.querySelector('.user div');
                             const username = user.querySelector('.user h6');
                             username.addEventListener('click', () => {
-                                window.location.href = `/public/pages/UserProfile.html?username=${post.userName}`;
+                                window.location.href = `./pages/UserProfile.html?username=${post.userName}`;
                             });
 
                             const gameName = user.querySelector('.user p');
                             gameName.addEventListener('click', () => {
-                                window.location.href = `/public/pages/Game-Video.html?gameName=${post.game[post.videoSources.indexOf(videoSource)]}`;
+                                window.location.href = `./pages/Game-Video.html?gameName=${post.game[post.videoSources.indexOf(videoSource)]}`;
                             });
 
                             postContainer.appendChild(div);

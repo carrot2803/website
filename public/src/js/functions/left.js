@@ -1,4 +1,4 @@
-fetch("/public/src/js/functions/users.json")
+fetch("./src/js/functions/users.json")
 	.then(response => response.json())
 	.then(usersData => {
 		function shufflePosts(posts) {
@@ -38,7 +38,7 @@ fetch("/public/src/js/functions/users.json")
 			// add an event listener to the user element to redirect the user to YouTube when the element is clicked
 			userElement.addEventListener('click', () => {
 				const username = user.userName;
-				window.location.href = `/public/pages/UserProfile.html?username=${username}`;
+				window.location.href = `./pages/UserProfile.html?username=${username}`;
 			});			
 
 			return userElement;
