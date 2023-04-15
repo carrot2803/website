@@ -97,9 +97,14 @@ video::-webkit-media-controls-time-remaining-display {
 
 @media (max-height: 400px){
 
-
 	.right{
 		height: auto;
 		width: auto;
+	}
+}
+
+@media(max-width: 500px){
+	.video-icons{
+		height: 75%;
 	}
 }
