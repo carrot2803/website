@@ -673,7 +673,7 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "BRIAN",
         "game": [
-            "Apex Legends"
+            "Counter Strike Global"
         ],
         "videoSources": [
             {
