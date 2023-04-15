@@ -14,7 +14,7 @@
     left: 0;
 }
 
-.social-text{
+.social-text {
     color: var(--input-field)
 }
 
@@ -91,4 +91,29 @@ form.sign-in-form {
 .input-field input::placeholder {
     color: var(--input-field);
     font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .container {
+        min-height: auto;
+    }
+
+    .forms-container {
+        width: 200%;
+        left: -50%;
+    }
+
+    .signin-signup {
+        left: 50%;
+        width: 100%;
+    }
+
+    form {
+        padding: 0rem 2rem;
+    }
+
+    .input-field {
+        max-width: none;
+        width: 100%;
+    }
 }
