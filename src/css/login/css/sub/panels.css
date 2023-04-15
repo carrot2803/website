@@ -79,3 +79,36 @@
 .right-panel .content {
     transform: translateX(800px);
 }
+
+@media (max-width: 768px) {
+    .panels-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container:before {
+        height: 1000px;
+        width: 1000px;
+        top: -40%;
+        right: -20%;
+    }
+
+    .left-panel,
+    .right-panel {
+        padding: 2rem;
+    }
+
+    .panel h3 {
+        font-size: 1.2rem;
+    }
+
+    .panel p {
+        font-size: 0.9rem;
+        padding: 0.5rem 0;
+    }
+
+    .btn.transparent {
+        width: 110px;
+        height: 35px;
+        font-size: 0.7rem;
+    }
+}
