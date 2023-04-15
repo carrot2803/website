@@ -14,8 +14,9 @@ video::-webkit-media-controls-time-remaining-display {
 		display: none;
 	}
 
-	.contacts-sidebar{
-		display: none;
+	video{
+		max-width: 100%;
+		height: auto;
 	}
 
 	.menu {
@@ -81,7 +82,24 @@ video::-webkit-media-controls-time-remaining-display {
 	}
 
 	.video-icons {
-		left: 50%;
+		left: 100%;
 	}
 
+}
+
+@media (max-width: 500px){
+	.contacts-sidebar{
+		display: none;
+	}
+
+}
+
+
+@media (max-height: 400px){
+
+
+	.right{
+		height: auto;
+		width: auto;
+	}
 }
