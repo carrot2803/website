@@ -53,6 +53,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		const contactsSidebar = document.querySelector('.contacts-sidebar');
 		const loginDiv = document.createElement('h4');
 		loginDiv.textContent = 'Login to view Contacts';
+		loginDiv.style.textAlign = 'center'; // Center the text
+		loginDiv.style.borderRadius = '50%'; // Make the border circular
+		loginDiv.style.width = '200px'; // Set a width for the element
+		loginDiv.style.margin = '0 auto'; // Center the element horizontally
 		contactsSidebar.appendChild(loginDiv);
 	}
+	
 });

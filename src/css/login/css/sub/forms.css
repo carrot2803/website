@@ -93,6 +93,11 @@ form.sign-in-form {
     font-weight: 500;
 }
 
+#final-grade{
+    color: var(--input-field);
+    font-size: larger;
+}
+
 @media (max-width: 768px) {
     .container {
         min-height: auto;

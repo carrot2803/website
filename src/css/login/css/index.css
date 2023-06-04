@@ -4,6 +4,7 @@
 @import url('./sub/buttons.css');
 @import url('./sub/forms.css');
 @import url('./sub/panels.css');
+@import url('./sub/mobile.css');
 
 body,
 input {

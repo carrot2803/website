@@ -1,0 +1,72 @@
+/* CSS for mobile screens */
+@media only screen and (max-width: 600px) {
+    /* Adjust container width and padding */
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* Adjust input field width and margin */
+    .input-field input[type="number"] {
+        width: 80%;
+        margin: 5px 0;
+    }
+
+    /* Adjust title font size */
+    .title {
+        font-size: 24px;
+    }
+
+    /* Adjust button font size */
+    .btn {
+        font-size: 16px;
+    }
+
+    /* Adjust panel image size */
+    .panel .image {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* Adjust panel image size */
+    .panel .image {
+        max-width: 100%;
+        height: auto;
+        width: 50px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    body{
+        background-color: var(---background);
+    }
+    /* Adjust container width and padding */
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Adjust input field width and margin */
+    .input-field input[type="number"] {
+        width: 50%;
+        margin: 5px 20rem 0 0;
+        text-align: center;
+    }
+    .panel .image {
+        max-width: 100%;
+        height: auto;
+        width: 50px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .title{
+        display: none;
+    }
+}
