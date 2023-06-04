@@ -1,19 +1,19 @@
-var data = [  // user data redin from link fetch js and index.js code
+var data = [
     {
         "userName": "Bob",
         "game": [
-            "Apex Legends",
-            "VALORANT",
-            "Sekiro: Shadows Die Twice"
+            "League of Legends",
+            "Counter-Strike: Global Offensive",
+            "Counter-Strike: Global Offensive"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1MQ7WJIQVToM57jGKVzmxupgRd8VwYt9b&export=download"
+                "src": "../assets/video1.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1-j35W8FHdgn8NNQREyUYNtnhaUOgi1dB&export=download"
+                "src": "../assets/video10.mp4"
             },
             {
                 "index": "3",
@@ -41,22 +41,22 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "Jason",
         "game": [
-            "Apex Legends",
-            "VALORANT",
+            "League of Legends",
+            "Elden Ring",
             "Elden Ring"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=10rgEXJ4p0ulEGq8tgSZQnWlH9PQmHkfp&export=download"
+                "src": "../assets/video2.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1ABxlk4eFb8QAxUTe3Jl8PMmFZCcVrjc6&export=download"
+                "src": "../assets/video12.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1bZHnIlYWDk75YWTu3zUvI6CShWmjFLKQ&export=download"
+                "src": "../assets/video13.mp4"
             }
         ],
         "likes": [
@@ -80,32 +80,32 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "Meld",
         "game": [
-            "VALORANT",
-            "Counter-Strike: Global Offensive",
+            "League of Legends",
+            "Apex Legends",
             "Elden Ring",
-            "Elden Ring",
-            "League of Legends"
+            "Genshin Impact",
+            "Apex Legends"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1C6irTRTExeZnkT1E5XrXNGlSxlbwTyZq&export=download"
+                "src": "../assets/video3.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1ysw_j90-ouByavyJiuq02dOLpPg1XtIO&export=download"
+                "src": "../assets/video22.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1Dx-o8oklf74S1-ZNu4REZCliCB66uA_d&export=download"
+                "src": "../assets/video15.mp4"
             },
             {
                 "index": "4",
-                "src": "https://drive.google.com/uc?id=1lYfDgkcNLl6QzzP8ZHzU3Zhcq2FBgpNs&export=download"
+                "src": "../assets/video31.mp4"
             },
             {
                 "index": "5",
-                "src": "https://drive.google.com/uc?id=1DHt2rWXfFfnd3D0KQBnpmwBiaA2Sv3Co&export=download"
+                "src": "../assets/video24.mp4"
             }
         ],
         "likes": [
@@ -136,12 +136,12 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "rpixpunk",
         "game": [
-            "Apex Legends"
+            "League of Legends"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1HSSKmHW8jKFpgBkimnEtMfPw6P1exxTS&export=download,"
+                "src": "../assets/video4.mp4"
             }
         ],
         "likes": [
@@ -171,27 +171,27 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "carrot",
         "game": [
-            "Apex Legends",
+            "League of Legends",
             "Elden Ring",
-            "Dota2",
-            "Dota2"
+            "Genshin Impact",
+            "Genshin Impact"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1UIBylsii680aoIutXpJltzLP5z7l3G-U&export=download"
+                "src": "../assets/video5.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1wSwaTW7yBpUs6gqMLgsDdSYgFy6vF3-m&export=download"
+                "src": "../assets/video14.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1LFGaxLhVD4GyWjP50XKqIZwYgruBwVO4&export=download"
+                "src": "../assets/video32.mp4"
             },
             {
                 "index": "4",
-                "src": "https://drive.google.com/uc?id=1n-RKvADGSC6U7dgdnmgovKFR-7o5MR9U&export=download"
+                "src": "../assets/video34.mp4"
             }
         ],
         "likes": [
@@ -218,28 +218,27 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "carrotcake",
         "game": [
-            "Apex Legends",
-            "Dota 2",
-            "Minecraft",
-            "Dota 2"
+            "Counter-Strike: Global Offensive",
+            "Sekiro: Shadows Die Twice",
+            "Genshin Impact",
+            "Sekiro: Shadows Die Twice"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1-h81rPMBVReyL4JNS3MpKQgmwyb5Vx1m&export=download"
+                "src": "../assets/video6.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1n-RKvADGSC6U7dgdnmgovKFR-7o5MR9U&export=download"
+                "src": "../assets/video34.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1gPjBJeFw3ibZaoNZjrKC-DVtkgPQc_x9&export=download"
+                "src": "../assets/video36.mp4"
             },
             {
                 "index": "4",
-                "src": " https://drive.google.com/uc?id=1CwHIbSmMug1NPHSyYsYz3sVBmqHxDMLJ&export=download"
-                
+                "src": "../assets/video31.mp4"
             }
         ],
         "likes": [
@@ -266,32 +265,32 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "juniorotten08",
         "game": [
-            "Resident Evil 4",
-            "Minecraft",
-            "Dota 2",
+            "Counter-Strike: Global Offensive",
+            "Genshin Impact",
+            "Genshin Impact",
             "Resident Evil 4",
             "Resident Evil 4"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1ZcgtBD6KC__ayyKq_YFXfJYY2AVO8sql&export=download"
+                "src": "../assets/video38.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1LVEPJBe42WYUz6C2cyw3ibbd8luYSEzQ&export=download"
+                "src": "../assets/video37.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=16yjpJCDQ6pXJeWK1V55Y13aQTGGyZmrw&export=download"
+                "src": "../assets/video39.mp4"
             },
             {
                 "index": "4",
-                "src": "https://drive.google.com/uc?id=1_nARR0QqoXTJKznwK1MMPzczfjSvgDBh&export=download"
+                "src": "../assets/video40.mp4"
             },
             {
                 "index": "5",
-                "src": "https://drive.google.com/uc?id=1Oo3Gmq-pdolego5PkLEuxCjNs2Y3Z3lW&export=download"
+                "src": "../assets/video41.mp4"
             }
         ],
         "likes": [
@@ -321,22 +320,22 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "Jxmbie",
         "game": [
-            "VALORANT",
             "Counter-Strike: Global Offensive",
-            "Legends of Legends"
+            "VALORANT",
+            "Apex Legends"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1WL2A6c1EFKRLGVZr1JLEIs6mSSNj_iEa&export=download"
+                "src": "../assets/video8.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1MjGhhjAiPxAcdyBHkxdeDcmA5A9WMiYF&export=download"
+                "src": "../assets/video20.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1M0kQMACDGBQZt1aWsGcOJN3WXriThihy&export=download"
+                "src": "../assets/video26.mp4"
             }
         ],
         "likes": [
@@ -360,22 +359,22 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "simpfor.ganyu",
         "game": [
-            "VALORANT",
             "Counter-Strike: Global Offensive",
-            "League of Legends"
+            "Genshin Impact",
+            "Sekiro: Shadows Die Twice"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1LTS_aQpqNcfwlTsIFPNWZ1LgsN92_z6H&export=download"
+                "src": "../assets/video9.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1MjGhhjAiPxAcdyBHkxdeDcmA5A9WMiYF&export=download"
+                "src": "../assets/video21.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1bZfX7Ql3bW8X6j5BGlmVceN-q98ch2pQ&export=download"
+                "src": "../assets/video27.mp4"
             }
         ],
         "likes": [
@@ -399,22 +398,22 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "theRam1a1",
         "game": [
-            "VALORANT",
-            "Minecraft",
-            "VALORANT"
+            "Counter-Strike: Global Offensive",
+            "Sekiro: Shadows Die Twice",
+            "Counter-Strike: Global Offensive"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1LTS_aQpqNcfwlTsIFPNWZ1LgsN92_z6H&export=download"
+                "src": "../assets/video9.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1cKmraebwROBh6JH0P5OXBZfQD33xWZ8N&export=download"
+                "src": "../assets/video35.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1-j35W8FHdgn8NNQREyUYNtnhaUOgi1dB&export=download"
+                "src": "../assets/video10.mp4"
             }
         ],
         "likes": [
@@ -438,27 +437,27 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "Sunflowaaaa",
         "game": [
-            "Resident Evil 4",
             "Dota2",
             "Dota2",
-            "Sekiro"
+            "Dota2",
+            "Dota2"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1XW4AoX29UeVXSrcUQY32xeWOQ5J3b6vQ&export=download"
+                "src": "../assets/video42.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1xMkJBhowtTwv6miHplWMAdgHz-06bDJ_&export=download"
+                "src": "../assets/video43.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1G7uYLJ0f628OOKfGx2H84UNo9IcA-oOH&export=download"
+                "src": "../assets/video44.mp4"
             },
             {
                 "index": "4",
-                "src": "https://drive.google.com/uc?id=15kXCEVzTx0pjZBfGtsuD6UcGyC2BWab_&export=download"
+                "src": "../assets/video45.mp4"
             }
         ],
         "likes": [
@@ -485,22 +484,22 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "lettuce",
         "game": [
-            "Genshin Impact",
-            "Genshin Impact",
-            "Genshin Impact"
+            "Minecraft",
+            "Minecraft",
+            "Minecraft"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1xVigIujWwwtSWWCgY3UdiJbpNzxBMdEA&export=download"
+                "src": "../assets/video46.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1CFVdrZZDa4hmQTzW3k7GL1mkS5wDO7T0&export=download"
+                "src": "../assets/video47.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1O89Vcet4SilosjO_gz5vR4w419fX8_Xo&export=download"
+                "src": "../assets/video48.mp4"
             }
         ],
         "likes": [
@@ -529,7 +528,7 @@ var data = [  // user data redin from link fetch js and index.js code
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1bZHnIlYWDk75YWTu3zUvI6CShWmjFLKQ&export=download"
+                "src": "../assets/video13.mp4"
             }
         ],
         "likes": [
@@ -548,14 +547,14 @@ var data = [  // user data redin from link fetch js and index.js code
         "userName": "fuhzzzz",
         "game": [
             "Elden Ring",
-            "CS GO",
+            "Genshin Impact",
             "Resident Evil 4",
-            "VALORANT"
+            "Resident Evil 4"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=18OJIHY9_UIu27-9r_Yf21pK87AcTd_40&export=download"
+                "src": "../assets/video18.mp4"
             },
             {
                 "index": "2",
@@ -594,22 +593,22 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "arashi",
         "game": [
-            "CS GO",
-            "Genshin Impact",
-            "Genshin Impact"
+            "VALORANT",
+            "Minecraft",
+            "Minecraft"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1P_bvX2Miilfv5H8BiJfgMED7Zr0E4CXO&export=download"
+                "src": "../assets/video19.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1D-h8xmeAaA_7eorXgu7SGJcXxmFnewwN&export=download"
+                "src": "../assets/video49.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1XX9dJOJTpfwEQN2M71zZFcYWrAYjX-R4&export=download"
+                "src": "../assets/video50.mp4"
             }
         ],
         "likes": [
@@ -627,12 +626,12 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "Chelsea",
         "game": [
-            "Counter-Strike: Global Offensive"
+            "VALORANT"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1CBRcfWwjI76Vw45TI1iEUwAFJ1apW_kv&export=download"
+                "src": "../assets/video20.mp4"
             }
         ],
         "likes": [
@@ -655,7 +654,7 @@ var data = [  // user data redin from link fetch js and index.js code
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1MjGhhjAiPxAcdyBHkxdeDcmA5A9WMiYF&export=download"
+                "src": "../assets/video21.mp4"
             }
         ],
         "likes": [
@@ -673,12 +672,12 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "BRIAN",
         "game": [
-            "Counter Strike Global"
+            "VALORANT"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1pA4xJXJWC5-QQ6UB16YOnGPytUhWncHt&export=download"
+                "src": "../assets/video23.mp4"
             }
         ],
         "likes": [
@@ -696,12 +695,12 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "Noah",
         "game": [
-            "League of Legends"
+            "VALORANT"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1DHt2rWXfFfnd3D0KQBnpmwBiaA2Sv3Co&export=download"
+                "src": "../assets/video24.mp4"
             }
         ],
         "likes": [
@@ -724,7 +723,7 @@ var data = [  // user data redin from link fetch js and index.js code
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=129OqsTkPwAI3gk0iAIig2LREu9N0xXK6&export=download"
+                "src": "../assets/video25.mp4"
             }
         ],
         "likes": [
@@ -742,14 +741,14 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "Stan the Man",
         "game": [
-            "League of Legends",
-            "Sekiro",
-            "Minecraft"
+            "Dark Souls",
+            "Minecraft",
+            "Genshin Impact"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1M0kQMACDGBQZt1aWsGcOJN3WXriThihy&export=download"
+                "src": "../assets/video26.mp4"
             },
             {
                 "index": "2",
@@ -757,7 +756,7 @@ var data = [  // user data redin from link fetch js and index.js code
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1IFBMBMtSzffKeix9-8HRQ3IeIjANeDqh&export=download"
+                "src": "../assets/video30.mp4"
             }
         ],
         "likes": [
@@ -781,32 +780,32 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "BrandyRumRum",
         "game": [
-            "League Legends",
-            "Sekirio",
-            "Genshin Impact",
             "Apex Legends",
-            "League of Legends"
+            "Apex Legends",
+            "Resident Evil 4",
+            "Resident Evil 4",
+            "Resident Evil 4"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=129OqsTkPwAI3gk0iAIig2LREu9N0xXK6&export=download"
+                "src": "../assets/video25.mp4"
             },
             {
                 "index": "2",
-                "src": "https://drive.google.com/uc?id=1M0kQMACDGBQZt1aWsGcOJN3WXriThihy&export=download"
+                "src": "../assets/video23.mp4"
             },
             {
                 "index": "3",
-                "src": "https://drive.google.com/uc?id=1bZfX7Ql3bW8X6j5BGlmVceN-q98ch2pQ&export=download"
+                "src": "../assets/video39.mp4"
             },
             {
                 "index": "4",
-                "src": "https://drive.google.com/uc?id=1wFZg0KJ30kwJWumjmtwCwzl18yPEzMGF&export=download"
+                "src": "../assets/video40.mp4"
             },
             {
                 "index": "5",
-                "src": "https://drive.google.com/uc?id=1LVEPJBe42WYUz6C2cyw3ibbd8luYSEzQ&export=download"
+                "src": "../assets/video41.mp4"
             }
         ],
         "likes": [
@@ -835,12 +834,12 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "Maryam",
         "game": [
-            "League of Legends"
+            "Apex Legends"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1wFZg0KJ30kwJWumjmtwCwzl18yPEzMGF&export=download"
+                "src": "../assets/video28.mp4"
             }
         ],
         "likes": [
@@ -858,12 +857,12 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "lemon",
         "game": [
-            "Minecraft"
-        ],  
+            "Apex Legends"
+        ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1vO_4Ld54eEh6LEsV3-Rv17HSR9ZRQoa2&export=download"
+                "src": "../assets/video29.mp4"
             }
         ],
         "likes": [
@@ -881,12 +880,12 @@ var data = [  // user data redin from link fetch js and index.js code
     {
         "userName": "Bryan",
         "game": [
-            "Minecraft"
+            "Apex Legends"
         ],
         "videoSources": [
             {
                 "index": "1",
-                "src": "https://drive.google.com/uc?id=1IFBMBMtSzffKeix9-8HRQ3IeIjANeDqh&export=download"
+                "src": "../assets/video30.mp4"
             }
         ],
         "likes": [
