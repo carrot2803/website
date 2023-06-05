@@ -17,7 +17,7 @@ var data = [  // user data redin from link fetch js and index.js code
             },
             {
                 "index": "3",
-                "src": "../assets/video11.mp4"
+                "src": "https://drive.google.com/uc?id=1-j35W8FHdgn8NNQREyUYNtnhaUOgi1dB&export=download"
             }
         ],
         "likes": [
@@ -559,15 +559,15 @@ var data = [  // user data redin from link fetch js and index.js code
             },
             {
                 "index": "2",
-                "src": "../assets/video39.mp4"
+                "src": "https://drive.google.com/uc?id=18OJIHY9_UIu27-9r_Yf21pK87AcTd_40&export=download"
             },
             {
                 "index": "3",
-                "src": "../assets/video40.mp4"
+                "src": "https://drive.google.com/uc?id=18OJIHY9_UIu27-9r_Yf21pK87AcTd_40&export=download"
             },
             {
                 "index": "4",
-                "src": "../assets/video41.mp4"
+                "src": "https://drive.google.com/uc?id=18OJIHY9_UIu27-9r_Yf21pK87AcTd_40&export=download"
             }
         ],
         "likes": [
@@ -753,7 +753,7 @@ var data = [  // user data redin from link fetch js and index.js code
             },
             {
                 "index": "2",
-                "src": "../assets/video50.mp4"
+                "src": "https://drive.google.com/uc?id=18OJIHY9_UIu27-9r_Yf21pK87AcTd_40&export=download"
             },
             {
                 "index": "3",
