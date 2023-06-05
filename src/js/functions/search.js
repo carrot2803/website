@@ -1,15 +1,4 @@
-const games = [
-    "League of Legends",
-    "Elden Ring",
-    "Apex Legends",
-    "Genshin Impact",
-    "Counter-Strike: Global Offensive",
-    "Sekiro: Shadows Die Twice",
-    "Resident Evil 4",
-    "VALORANT",
-    "Dota2",
-    "Minecraft"
-];
+const games = ["League of Legends", "Elden Ring", "Apex Legends", "Genshin Impact", "Counter-Strike: Global Offensive", "Sekiro: Shadows Die Twice", "Resident Evil 4", "VALORANT", "Dota2", "Minecraft"];
 
 const searchInput = document.querySelector('.search-input');
 const searchResults = document.querySelector('.search-results');
@@ -18,8 +7,7 @@ let keepSearchResultsDisplayed = false;
 function displayResults(results) {
     const html = results.map(result => `<div><p>${result}</p></div>`).join("");
     searchResults.innerHTML = html;
-
-    // Add event listener to each search result element to keep search results displayed
+    
     const resultElements = searchResults.querySelectorAll('div');
     resultElements.forEach(resultElement => {
         resultElement.addEventListener('mouseenter', () => {
